@@ -7,14 +7,15 @@
   <br>
 <h2>Team Members</h2> 
   <ul>
-  <li>Alfred Ageyi Marfo</li>
-  <li>Marcos Hernandez</li>
-  <li>Sanjeev Dasari</li>
-  <li>Young In Kim</li>
+  <li>Alfred Ageyi Marfo - Senior Calvin student from Ghana</li>
+  <li>Marcos Hernandez - Senior Calvin student from Nicaragua</li>
+  <li>Sanjeev Dasari - Senior Calvin student from India</li>
+  <li>Young In Kim - Senior Calvin student from South Korea</li>
   </ul> 
-  <h2>Our Code</h2>
-  <p>https://github.com/cs-396-aca-project</p>
-  <h2>Calvin Univesity Computer Science Department</h2>
-  <p>https://computing.calvin.edu/</p>
+  <h2>Our GitHub</h2>
+  <p><a href="https://github.com/cs-396-aca-project">Project GitHub</a></p>
+  <p><a href="https://docs.google.com/document/d/1KqeGyMWgwET9CFBTbGb6jeKMEkOPgPhx-byzVdGN9tA/edit?usp=sharing">Project_Proposal</a></p>
+  <br>
+  <p><a href="https://computing.calvin.edu/">Calvin Univesity Computer Science Department</a></p>
 </body>
 </html>
