@@ -13,8 +13,8 @@
   <li>Young In Kim</li>
   </ul> 
   <h2>Our Code</h2>
-  <p>https://github.com/cs-396-aca-project</p>
+  <a href="https://github.com/cs-396-aca-project">Project GitHub</a>
   <h2>Calvin Univesity Computer Science Department</h2>
-  <p>https://computing.calvin.edu/</p>
+  <a href="https://computing.calvin.edu/">Calvin Univesity Computer Science Department</a>
 </body>
 </html>
