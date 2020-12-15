@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<p:ACAUIBusinessHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:us:gov:treasury:irs:ext:aca:air:ty20" xmlns:acaBusHeader="urn:us:gov:treasury:irs:msg:acabusinessheader" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:irs="urn:us:gov:treasury:irs:common" xmlns:p="urn:us:gov:treasury:irs:msg:acauibusinessheader" xsi:schemaLocation="urn:us:gov:treasury:irs:msg:acauibusinessheader IRS-ACAUserInterfaceHeaderMessage.xsd">
+  <acaBusHeader:ACABusinessHeader>
+    <UniqueTransmissionId>00000000-0000-0000-0000-000000000000:SYS12:BB000::T</UniqueTransmissionId>
+    <irs:Timestamp>2001-12-17T09:30:47Z</irs:Timestamp>
+  </acaBusHeader:ACABusinessHeader>
+  <ACATransmitterManifestReqDtl>
+    <PaymentYr>2020</PaymentYr>
+    <PriorYearDataInd>0</PriorYearDataInd>
+    <irs:EIN>123456789</irs:EIN>
+    <TransmissionTypeCd>O</TransmissionTypeCd>
+    <TestFileCd>T</TestFileCd>
+    <TransmitterNameGrp>
+      <BusinessNameLine1Txt>Calvin</BusinessNameLine1Txt>
+    </TransmitterNameGrp>
+    <CompanyInformationGrp>
+      <CompanyNm>Calvin Co</CompanyNm>
+      <MailingAddressGrp>
+        <ForeignAddressGrp>
+          <AddressLine1Txt>2418 woodcliff ave se</AddressLine1Txt>
+          <CountryCd>AF</CountryCd>
+        </ForeignAddressGrp>
+      </MailingAddressGrp>
+      <ContactNameGrp>
+        <PersonFirstNm>Alfred</PersonFirstNm>
+        <PersonLastNm>Marfo</PersonLastNm>
+      </ContactNameGrp>
+      <ContactPhoneNum>5138838747</ContactPhoneNum>
+    </CompanyInformationGrp>
+    <VendorInformationGrp>
+      <VendorCd>I</VendorCd>
+      <ContactNameGrp>
+        <PersonFirstNm>John</PersonFirstNm>
+        <PersonLastNm>Smith</PersonLastNm>
+      </ContactNameGrp>
+      <ContactPhoneNum>5138838747</ContactPhoneNum>
+    </VendorInformationGrp>
+    <TotalPayeeRecordCnt>10</TotalPayeeRecordCnt>
+    <TotalPayerRecordCnt>11</TotalPayerRecordCnt>
+    <SoftwareId />
+    <FormTypeCd>1094/1095B</FormTypeCd>
+    <irs:BinaryFormatCd>application/xml</irs:BinaryFormatCd>
+    <irs:ChecksumAugmentationNum>0000000000000000000000000000000000000000000000000000000000000000</irs:ChecksumAugmentationNum>
+    <AttachmentByteSizeNum>0</AttachmentByteSizeNum>
+    <DocumentSystemFileNm>1094B_Request_BB000_10000101T000000000Z.xml</DocumentSystemFileNm>
+  </ACATransmitterManifestReqDtl>
+</p:ACAUIBusinessHeader>

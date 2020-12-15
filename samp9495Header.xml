@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- alfred (calvin) -->
+<n1:Form109495CTransmittalUpstream xmlns="urn:us:gov:treasury:irs:ext:aca:air:ty20" xmlns:irs="urn:us:gov:treasury:irs:common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="urn:us:gov:treasury:irs:msg:form1094-1095Ctransmitterupstreammessage" xsi:schemaLocation="urn:us:gov:treasury:irs:msg:form1094-1095Ctransmitterupstreammessage IRS-Form1094-1095CTransmitterUpstreamMessage.xsd">
+  <Form1094CUpstreamDetail recordType="0" lineNum="1">
+    <SubmissionId>1</SubmissionId>
+    <TaxYr>2020</TaxYr>
+    <CorrectedInd>0</CorrectedInd>
+    <EmployerInformationGrp>
+      <BusinessName>
+        <BusinessNameLine1Txt>calvin Co</BusinessNameLine1Txt>
+      </BusinessName>
+      <irs:EmployerEIN>123456789</irs:EmployerEIN>
+      <MailingAddressGrp>
+        <USAddressGrp>
+          <AddressLine1Txt>3201 burton street se</AddressLine1Txt>
+          <irs:CityNm>Grand Rapids</irs:CityNm>
+          <USStateCd>MI</USStateCd>
+          <irs:USZIPCd>49546</irs:USZIPCd>
+        </USAddressGrp>
+      </MailingAddressGrp>
+      <ContactNameGrp>
+        <PersonFirstNm>alfred</PersonFirstNm>
+        <PersonLastNm>Marfo</PersonLastNm>
+      </ContactNameGrp>
+      <ContactPhoneNum>5138838747</ContactPhoneNum>
+    </EmployerInformationGrp>
+    <Form1095CAttachedCnt>1</Form1095CAttachedCnt>
+    <AuthoritativeTransmittalInd>0</AuthoritativeTransmittalInd>
+    <Form1095CUpstreamDetail recordType="0" lineNum="1">
+      <RecordId>1</RecordId>
+      <CorrectedInd>0</CorrectedInd>
+      <TaxYr>2020</TaxYr>
+      <EmployeeInfoGrp>
+        <OtherCompletePersonName>
+          <PersonFirstNm>alfred</PersonFirstNm>
+          <PersonLastNm>Marfo</PersonLastNm>
+        </OtherCompletePersonName>
+        <MailingAddressGrp>
+          <USAddressGrp>
+            <AddressLine1Txt>3201 Burton st se</AddressLine1Txt>
+            <irs:CityNm>Grand Rapids</irs:CityNm>
+            <USStateCd>MI</USStateCd>
+            <irs:USZIPCd>49546</irs:USZIPCd>
+          </USAddressGrp>
+        </MailingAddressGrp>
+      </EmployeeInfoGrp>
+      <StartMonthNumberCd>03</StartMonthNumberCd>
+      <EmployeeOfferAndCoverageGrp>
+        <AnnualOfferOfCoverageCd>1A</AnnualOfferOfCoverageCd>
+      </EmployeeOfferAndCoverageGrp>
+    </Form1095CUpstreamDetail>
+  </Form1094CUpstreamDetail>
+</n1:Form109495CTransmittalUpstream>
