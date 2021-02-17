@@ -9,11 +9,10 @@
   <p>We ave our prototype which is an xml prototype for the 1094/1095 form to show how our XML should look like when we convert the PDF form and data from the database to an XML.</p>
 <h2>Team Members</h2> 
   <ul>
-  <li>Alfred Ageyi Marfo - Senior Calvin student from Ghana</li>
   <li>Marcos Hernandez - Senior Calvin student from Nicaragua</li>
   <li>Sanjeev Dasari - Senior Calvin student from India</li>
-  <li>Young In Kim - Senior Calvin student from South Korea</li>
   </ul> 
+  <p>Alfred and Young In have previously worked on this project</p>
   <h2>Our GitHub</h2>
   <p><a href="https://github.com/cs-396-aca-project">Project GitHub</a></p>
   <p><a href="https://docs.google.com/document/d/1KqeGyMWgwET9CFBTbGb6jeKMEkOPgPhx-byzVdGN9tA/edit?usp=sharing">Project_Proposal</a></p>
