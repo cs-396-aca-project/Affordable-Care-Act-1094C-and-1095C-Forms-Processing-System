@@ -1,4 +1,4 @@
-import xml.etree.ElementTree as gfg 
+import xml.etree.ElementTree as sam
 
 
 def GenerateXML(fileName) : 
@@ -36,4 +36,4 @@ def GenerateXML(fileName) :
 
 # Driver Code 
 if __name__ == "__main__": 
-	GenerateXML("Catalog.xml") 
+	GenerateXML("pythonapp.xml") 
