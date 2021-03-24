@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<p:ACAUIBusinessHeader xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:us:gov:treasury:irs:ext:aca:air:ty20" xmlns:acaBusHeader="urn:us:gov:treasury:irs:msg:acabusinessheader" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:irs="urn:us:gov:treasury:irs:common" xmlns:p="urn:us:gov:treasury:irs:msg:acauibusinessheader" xsi:schemaLocation="urn:us:gov:treasury:irs:msg:acauibusinessheader IRS-ACAUserInterfaceHeaderMessage.xsd">
+	<acaBusHeader:ACABusinessHeader>
+		<UniqueTransmissionId>55d06643-05eb-457b-be95-8d1dc3f5e132:SYS12:BB0RB::T</UniqueTransmissionId>
+		<irs:Timestamp>2021-02-05T20:00:23Z</irs:Timestamp>
+	</acaBusHeader:ACABusinessHeader>
+	<ACATransmitterManifestReqDtl>
+		<PaymentYr>2020</PaymentYr>
+		<PriorYearDataInd>0</PriorYearDataInd>
+		<irs:EIN>111111113</irs:EIN>
+		<TransmissionTypeCd>O</TransmissionTypeCd>
+		<TestFileCd>P</TestFileCd>
+		<TransmitterNameGrp>
+			<BusinessNameLine1Txt>ABC Company</BusinessNameLine1Txt>
+		</TransmitterNameGrp>
+		<CompanyInformationGrp>
+			<CompanyNm>ABC Company</CompanyNm>
+			<MailingAddressGrp>
+				<USAddressGrp>
+					<AddressLine1Txt>27 28th Street SE</AddressLine1Txt>
+					<irs:CityNm>Grand Rapids</irs:CityNm>
+					<USStateCd>MI</USStateCd>
+					<irs:USZIPCd>49506</irs:USZIPCd>
+				</USAddressGrp>
+			</MailingAddressGrp>
+			<ContactNameGrp>
+				<PersonFirstNm>Herbert</PersonFirstNm>
+				<PersonLastNm>Jones</PersonLastNm>
+			</ContactNameGrp>
+			<ContactPhoneNum>6165555555</ContactPhoneNum>
+		</CompanyInformationGrp>
+		<VendorInformationGrp>
+			<VendorCd>I</VendorCd>
+			<ContactNameGrp>
+				<PersonFirstNm>Herbert</PersonFirstNm>
+				<PersonLastNm>Jones</PersonLastNm>
+			</ContactNameGrp>
+			<ContactPhoneNum>6165555555</ContactPhoneNum>
+		</VendorInformationGrp>
+		<TotalPayeeRecordCnt>6</TotalPayeeRecordCnt>
+		<TotalPayerRecordCnt>1</TotalPayerRecordCnt>
+		<SoftwareId>20A0012121</SoftwareId>
+		<FormTypeCd>1094/1095C</FormTypeCd>
+		<irs:BinaryFormatCd>application/xml</irs:BinaryFormatCd>
+		<irs:ChecksumAugmentationNum>BBAA96248E0E80E86541E693444BB57F2B467C7007B2F21C5F8E68B16D597033</irs:ChecksumAugmentationNum>
+		<AttachmentByteSizeNum>19675</AttachmentByteSizeNum>
+		<DocumentSystemFileNm>1094C_Request_LVRVD_20210205T200015000Z.xml</DocumentSystemFileNm>
+	</ACATransmitterManifestReqDtl>
+</p:ACAUIBusinessHeader>
