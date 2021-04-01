@@ -1,0 +1,19 @@
+import xml.etree.ElementTree as ET
+
+xmlfile = "sample.test.xml"
+
+tree = ET.parse(xmlfile)
+root = tree.getroot()
+ET.dump(tree)
+
+
+for x in root.findall('./Form1094CUpstreamDetail/')
+    print(x.tag, " ", x.text)
+
+find = root.iterfind('./Form1094CUpstreamDetail/SubmissionId')
+find2 = root.iterfind('./Form1094CUpstreamDetail/TaxYr')
+find3 = root.iterfind('./Form1094CUpstreamDetail/CorrectedInd')
+find4 = root.iterfind('./Form1094CUpstreamDetail/EmployerInformationGrp')
+
+for a,b,c,d in zip(find, find2, find3, find4):
+    print(a.text, b.text, c.text, d.text)
