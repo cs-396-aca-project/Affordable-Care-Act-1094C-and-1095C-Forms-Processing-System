@@ -7,13 +7,48 @@ root = tree.getroot()
 ET.dump(tree)
 
 
-for x in root.findall('./Form1094CUpstreamDetail/')
-    print(x.tag, " ", x.text)
+for Date_Id in root.findall('./Form1094CUpstreamDetail/'):
+    print(Date_Id.tag, " ", Date_Id.text)
 
-find = root.iterfind('./Form1094CUpstreamDetail/SubmissionId')
+find1 = root.iterfind('./Form1094CUpstreamDetail/SubmissionId')
 find2 = root.iterfind('./Form1094CUpstreamDetail/TaxYr')
 find3 = root.iterfind('./Form1094CUpstreamDetail/CorrectedInd')
-find4 = root.iterfind('./Form1094CUpstreamDetail/EmployerInformationGrp')
 
-for a,b,c,d in zip(find, find2, find3, find4):
-    print(a.text, b.text, c.text, d.text)
+for a1, b1, c1 in zip(find1, find2, find3):
+    print(a1.text, b1.text, c1.text)
+
+#########################################
+for Employer_Infm in root.findall('./Form1094CUpstreamDetail/EmployerInformationGrp/'):
+    print(Employer_Infm.tag, " ", Employer_Infm.text)
+
+findtag = root.iterfind('./Form1094CUpstreamDetail/EmployerInformationGrp/BusinessName/BusinessNameLine1Txt')
+
+for Business_Name in zip(findtag):
+    print(Business_Name.text)
+
+
+#IRS####################################
+for IRS in root.findall('./Form1094CUpstreamDetail/EmployerInformationGrp/'):
+     print(IRS.tag, " ", IRS.text)
+
+findIRS_1 = root.iterfind('./Form1094CUpstreamDetail/EmployerInformationGrp/irs:TINRequestTypeCd')
+findIRS_2 = root.iterfind('./Form1094CUpstreamDetail/EmployerInformationGrp/irs:EmployerEIN')
+
+
+for IRStag1, IRStag2 in zip(findIRS_1, findIRS_2):
+    print(IRStag1.text, IRStag2.text)
+
+############################################
+
+for Mail_Add in root.findall('./Form1094CUpstreamDetail/EmployerInformationGrp/MailingAddressGrp/USAddressGrp'):
+    print(Mail_Add.tag, " ", Mail_Add.text)
+
+findAddress = root.iterfind('./Form1094CUpstreamDetail/EmployerInformationGrp/MailingAddressGrp/USAddressGrp/AddressLine1Txt')    
+findirs_city = root.interfind('./Form1094CUpstreamDetail/EmployerInformationGrp/MailingAddressGrp/USAddressGrp/irs:CityNm')
+findirs_state = root.interfind('./Form1094CUpstreamDetail/EmployerInformationGrp/MailingAddressGrp/USAddressGrp/USStateCd')
+findirs_zipcd = root.interfind('./Form1094CUpstreamDetail/EmployerInformationGrp/MailingAddressGrp/USAddressGrp/irs:USZIPCd')
+
+for add1, add2, add3, add4 in zip(findAddress, findirs_city, findirs_state, findirs_zipcd):
+    print(add1.text, add2.text, add3.text, add4.text)
+
+#######################################################
