@@ -6,11 +6,11 @@
   <p>Our team wanted to develop a processing system that manages the PDF and XML publications to support the Affordable Care Act. All the members in our team are taking CS-342 at Calvin University, so we are confident that we’ll be able to learn the necessary skills needed in creating a database system. </p>
   <br>
   <h2>Current Status</h2> 
-  <p>We ave our prototype which is an xml prototype for the 1094/1095 form to show how our XML should look like when we convert the PDF form and data from the database to an XML.</p>
+  <p>We have our prototype which is an xml prototype for the 1094/1095 form to show how our XML should look like when we convert the PDF form and data from the database to an XML.</p>
 <h2>Team Members</h2> 
   <ul>
-  <li>Marcos Hernandez - Senior Calvin student from Nicaragua</li>
-  <li>Sanjeev Dasari - Senior Calvin student from India</li>
+  <li>Marcos Hernandez - Senior Calvin student from Nicaragua majoring in Computer Science</li>
+  <li>Sanjeev Dasari - Senior Calvin student from India majoring in Computer Science</li>
   </ul> 
   <p>Alfred and Young In have previously worked on this project</p>
   <h2>Our GitHub</h2>
