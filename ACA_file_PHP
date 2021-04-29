@@ -1,0 +1,284 @@
+<?php
+    $xml = simplexml_load_file('1094C_Request_LVRVD_20210205T200015000Z.xml');
+
+    echo '<h2>1094C Form Result</h2>';
+
+    $form = $xml->Form1094CUpstreamDetail;
+
+    for ($resultsForm = 0; $resultsForm < count($form); $resultsForm++){
+
+        echo '<h3>Upstream Detail::</h3>';
+        echo '<b>SubmissionID:</b> ' . $form[$resultsForm]-> SubmissionId . '<br>';
+
+        echo '<b>TaxYr:</b> ' . $form[$resultsForm]-> TaxYr . '<br>';
+
+        echo '<b>CorrectedInd:</b> ' . $form[$resultsForm]-> CorrectedInd . '<br>';
+    
+        foreach($xml as $item){
+
+            echo '<h3>Business Name:</h3>';
+            echo '<b>BusinessNameLine1Txt: </b>' . $item->EmployerInformationGrp->BusinessName->BusinessNameLine1Txt; echo '<br>';
+            echo '<b>irs:TINRequestTypeCd: </b>' . $item->EmployerInformationGrp->children('irs', true)->TINRequestTypeCd . '<br>';
+            echo '<b>irs:EmployerEIN: </b>' . $item->EmployerInformationGrp->children('irs', true)->EmployerEIN . '<br>';
+
+            echo '<h3>Employee Address:</h3>';
+            echo '<b>AddressLine1Txt: </b>' . $item->EmployerInformationGrp->MailingAddressGrp->USAddressGrp->AddressLine1Txt; echo '<br>';
+            echo '<b>irs:CityNm: </b>' . $item->EmployerInformationGrp->MailingAddressGrp->USAddressGrp->children('irs', true)->CityNm . '<br>';
+            echo '<b>USStateCd: </b>' . $item->EmployerInformationGrp->MailingAddressGrp->USAddressGrp->USStateCd; echo '<br>';
+            echo '<b>irs:USZIPCd: </b>' . $item->EmployerInformationGrp->MailingAddressGrp->USAddressGrp->children('irs', true)->USZIPCd . '<br>';
+
+            echo '<h3>Contact Info:</h3>';
+            echo '<b>PersonFirstNm: </b>' . $item->EmployerInformationGrp->ContactNameGrp->PersonFirstNm; echo '<br>';
+            echo '<b>PersonLastNm: </b>' . $item->EmployerInformationGrp->ContactNameGrp->PersonLastNm; echo '<br>';
+
+            echo '<b>ContactPhoneNum: </b>' . $item->EmployerInformationGrp->ContactPhoneNum; echo '<br>';
+
+
+            echo '<h3>More Info:</h3>';
+            echo '<b>Form1095CAttachedCnt: </b>' . $item->Form1095CAttachedCnt; echo '<br>';
+            echo '<b>AuthoritativeTransmittalInd: </b>' . $item->AuthoritativeTransmittalInd; echo '<br>';
+            echo '<b>TotalForm1095CALEMemberCnt: </b>' . $item->TotalForm1095CALEMemberCnt; echo '<br>';
+            echo '<b>AggregatedGroupMemberCd: </b>' . $item->AggregatedGroupMemberCd; echo '<br>';
+            echo '<b>QualifyingOfferMethodInd: </b>' . $item->QualifyingOfferMethodInd; echo '<br>';
+            echo '<b>NinetyEightPctOfferMethodInd: </b>' . $item->NinetyEightPctOfferMethodInd; echo '<br>';
+
+
+            /////////////////////////////////////////////////
+            echo '<h3>ALEMemberInformationGrp:</h3>';
+            echo '<h4>YearlyALEMemberDetail</h4>';
+            echo '<b>MinEssentialCvrOffrCd: </b>' . $item->ALEMemberInformationGrp->YearlyALEMemberDetail->MinEssentialCvrOffrCd; echo '<br>';
+            echo '<b>AggregatedGroupInd: </b>' . $item->ALEMemberInformationGrp->YearlyALEMemberDetail->AggregatedGroupInd; echo '<br>';
+
+            echo '<h4>JanALEMonthlyInfoGrp:</h4>';
+            echo '<b>MinEssentialCvrOffrCd: </b>' . $item->ALEMemberInformationGrp->JanALEMonthlyInfoGrp->MinEssentialCvrOffrCd; echo '<br>';
+            echo '<b>ALEMemberFTECnt: </b>' . $item->ALEMemberInformationGrp->JanALEMonthlyInfoGrp->ALEMemberFTECnt; echo '<br>';
+            echo '<b>TotalEmployeeCnt: </b>' . $item->ALEMemberInformationGrp->JanALEMonthlyInfoGrp->TotalEmployeeCnt; echo '<br>';
+            echo '<b>AggregatedGroupInd: </b>' . $item->ALEMemberInformationGrp->JanALEMonthlyInfoGrp->AggregatedGroupInd; echo '<br>';
+
+            echo '<h4>FebALEMonthlyInfoGrp:</h4>';
+            echo '<b>MinEssentialCvrOffrCd: </b>' . $item->ALEMemberInformationGrp->FebALEMonthlyInfoGrp->MinEssentialCvrOffrCd; echo '<br>';
+            echo '<b>ALEMemberFTECnt: </b>' . $item->ALEMemberInformationGrp->FebALEMonthlyInfoGrp->ALEMemberFTECnt; echo '<br>';
+            echo '<b>TotalEmployeeCnt: </b>' . $item->ALEMemberInformationGrp->FebALEMonthlyInfoGrp->TotalEmployeeCnt; echo '<br>';
+            echo '<b>AggregatedGroupInd: </b>' . $item->ALEMemberInformationGrp->FebALEMonthlyInfoGrp->AggregatedGroupInd; echo '<br>';
+
+            echo '<h4>MarALEMonthlyInfoGrp:</h4>';
+            echo '<b>MinEssentialCvrOffrCd: </b>' . $item->ALEMemberInformationGrp->MarALEMonthlyInfoGrp->MinEssentialCvrOffrCd; echo '<br>';
+            echo '<b>ALEMemberFTECnt: </b>' . $item->ALEMemberInformationGrp->MarALEMonthlyInfoGrp->ALEMemberFTECnt; echo '<br>';
+            echo '<b>TotalEmployeeCnt: </b>' . $item->ALEMemberInformationGrp->MarALEMonthlyInfoGrp->TotalEmployeeCnt; echo '<br>';
+            echo '<b>AggregatedGroupInd: </b>' . $item->ALEMemberInformationGrp->MarALEMonthlyInfoGrp->AggregatedGroupInd; echo '<br>';
+
+            echo '<h4>AprALEMonthlyInfoGrp:</h4>';
+            echo '<b>MinEssentialCvrOffrCd: </b>' . $item->ALEMemberInformationGrp->AprALEMonthlyInfoGrp->MinEssentialCvrOffrCd; echo '<br>';
+            echo '<b>ALEMemberFTECnt: </b>' . $item->ALEMemberInformationGrp->AprALEMonthlyInfoGrp->ALEMemberFTECnt; echo '<br>';
+            echo '<b>TotalEmployeeCnt: </b>' . $item->ALEMemberInformationGrp->AprALEMonthlyInfoGrp->TotalEmployeeCnt; echo '<br>';
+            echo '<b>AggregatedGroupInd: </b>' . $item->ALEMemberInformationGrp->AprALEMonthlyInfoGrp->AggregatedGroupInd; echo '<br>';
+
+            echo '<h4>MayALEMonthlyInfoGrp:</h4>';
+            echo '<b>MinEssentialCvrOffrCd: </b>' . $item->ALEMemberInformationGrp->MayALEMonthlyInfoGrp->MinEssentialCvrOffrCd; echo '<br>';
+            echo '<b>ALEMemberFTECnt: </b>' . $item->ALEMemberInformationGrp->MayALEMonthlyInfoGrp->ALEMemberFTECnt; echo '<br>';
+            echo '<b>TotalEmployeeCnt: </b>' . $item->ALEMemberInformationGrp->MayALEMonthlyInfoGrp->TotalEmployeeCnt; echo '<br>';
+            echo '<b>AggregatedGroupInd: </b>' . $item->ALEMemberInformationGrp->MayALEMonthlyInfoGrp->AggregatedGroupInd; echo '<br>';
+
+            echo '<h4>JunALEMonthlyInfoGrp:</h4>';
+            echo '<b>MinEssentialCvrOffrCd: </b>' . $item->ALEMemberInformationGrp->JunALEMonthlyInfoGrp->MinEssentialCvrOffrCd; echo '<br>';
+            echo '<b>ALEMemberFTECnt: </b>' . $item->ALEMemberInformationGrp->JunALEMonthlyInfoGrp->ALEMemberFTECnt; echo '<br>';
+            echo '<b>TotalEmployeeCnt: </b>' . $item->ALEMemberInformationGrp->JunALEMonthlyInfoGrp->TotalEmployeeCnt; echo '<br>';
+            echo '<b>AggregatedGroupInd: </b>' . $item->ALEMemberInformationGrp->JunALEMonthlyInfoGrp->AggregatedGroupInd; echo '<br>';
+
+            echo '<h4>JulALEMonthlyInfoGrp:</h4>';
+            echo '<b>MinEssentialCvrOffrCd: </b>' . $item->ALEMemberInformationGrp->JulALEMonthlyInfoGrp->MinEssentialCvrOffrCd; echo '<br>';
+            echo '<b>ALEMemberFTECnt: </b>' . $item->ALEMemberInformationGrp->JulALEMonthlyInfoGrp->ALEMemberFTECnt; echo '<br>';
+            echo '<b>TotalEmployeeCnt: </b>' . $item->ALEMemberInformationGrp->JulALEMonthlyInfoGrp->TotalEmployeeCnt; echo '<br>';
+            echo '<b>AggregatedGroupInd: </b>' . $item->ALEMemberInformationGrp->JulALEMonthlyInfoGrp->AggregatedGroupInd; echo '<br>';
+
+            echo '<h4>AugALEMonthlyInfoGrp:</h4>';
+            echo '<b>MinEssentialCvrOffrCd: </b>' . $item->ALEMemberInformationGrp->AugALEMonthlyInfoGrp->MinEssentialCvrOffrCd; echo '<br>';
+            echo '<b>ALEMemberFTECnt: </b>' . $item->ALEMemberInformationGrp->AugALEMonthlyInfoGrp->ALEMemberFTECnt; echo '<br>';
+            echo '<b>TotalEmployeeCnt: </b>' . $item->ALEMemberInformationGrp->AugALEMonthlyInfoGrp->TotalEmployeeCnt; echo '<br>';
+            echo '<b>AggregatedGroupInd: </b>' . $item->ALEMemberInformationGrp->AugALEMonthlyInfoGrp->AggregatedGroupInd; echo '<br>';
+
+            echo '<h4>SeptALEMonthlyInfoGrp:</h4>';
+            echo '<b>MinEssentialCvrOffrCd: </b>' . $item->ALEMemberInformationGrp->SeptALEMonthlyInfoGrp->MinEssentialCvrOffrCd; echo '<br>';
+            echo '<b>ALEMemberFTECnt: </b>' . $item->ALEMemberInformationGrp->SeptALEMonthlyInfoGrp->ALEMemberFTECnt; echo '<br>';
+            echo '<b>TotalEmployeeCnt: </b>' . $item->ALEMemberInformationGrp->SeptALEMonthlyInfoGrp->TotalEmployeeCnt; echo '<br>';
+            echo '<b>AggregatedGroupInd: </b>' . $item->ALEMemberInformationGrp->SeptALEMonthlyInfoGrp->AggregatedGroupInd; echo '<br>';
+
+            echo '<h4>OctALEMonthlyInfoGrp:</h4>';
+            echo '<b>MinEssentialCvrOffrCd: </b>' . $item->ALEMemberInformationGrp->OctALEMonthlyInfoGrp->MinEssentialCvrOffrCd; echo '<br>';
+            echo '<b>ALEMemberFTECnt: </b>' . $item->ALEMemberInformationGrp->OctALEMonthlyInfoGrp->ALEMemberFTECnt; echo '<br>';
+            echo '<b>TotalEmployeeCnt: </b>' . $item->ALEMemberInformationGrp->OctALEMonthlyInfoGrp->TotalEmployeeCnt; echo '<br>';
+            echo '<b>AggregatedGroupInd: </b>' . $item->ALEMemberInformationGrp->OctALEMonthlyInfoGrp->AggregatedGroupInd; echo '<br>';
+
+            echo '<h4>NovALEMonthlyInfoGrp:</h4>';
+            echo '<b>MinEssentialCvrOffrCd: </b>' . $item->ALEMemberInformationGrp->NovALEMonthlyInfoGrp->MinEssentialCvrOffrCd; echo '<br>';
+            echo '<b>ALEMemberFTECnt: </b>' . $item->ALEMemberInformationGrp->NovALEMonthlyInfoGrp->ALEMemberFTECnt; echo '<br>';
+            echo '<b>TotalEmployeeCnt: </b>' . $item->ALEMemberInformationGrp->NovALEMonthlyInfoGrp->TotalEmployeeCnt; echo '<br>';
+            echo '<b>AggregatedGroupInd: </b>' . $item->ALEMemberInformationGrp->NovALEMonthlyInfoGrp->AggregatedGroupInd; echo '<br>';
+
+            echo '<h4>DecALEMonthlyInfoGrp:</h4>';
+            echo '<b>MinEssentialCvrOffrCd: </b>' . $item->ALEMemberInformationGrp->DecALEMonthlyInfoGrp->MinEssentialCvrOffrCd; echo '<br>';
+            echo '<b>ALEMemberFTECnt: </b>' . $item->ALEMemberInformationGrp->DecALEMonthlyInfoGrp->ALEMemberFTECnt; echo '<br>';
+            echo '<b>TotalEmployeeCnt: </b>' . $item->ALEMemberInformationGrp->DecALEMonthlyInfoGrp->TotalEmployeeCnt; echo '<br>';
+            echo '<b>AggregatedGroupInd: </b>' . $item->ALEMemberInformationGrp->DecALEMonthlyInfoGrp->AggregatedGroupInd; echo '<br>'; "\r\n";
+
+/////////////////////////////////////////////////////////////////////
+
+            echo "<h3>Other ALE Members Grp</h3>";
+            echo '<b>AggregatedGroupInd: </b>' . $item->OtherALEMembersGrp[0]->BusinessName->BusinessNameLine1Txt; echo '<br>';
+            echo '<b>irs:TINRequestTypeCd: </b>' . $item->OtherALEMembersGrp[0]->children('irs', true)->TINRequestTypeCd . '<br>';
+            echo '<b>irs:EIN: </b>' . $item->OtherALEMembersGrp[0]->children('irs', true)->EIN . '<br>';
+
+            echo '<b>AggregatedGroupInd: </b>' . $item->OtherALEMembersGrp[1]->BusinessName->BusinessNameLine1Txt; echo '<br>';
+            echo '<b>irs:TINRequestTypeCd: </b>' . $item->OtherALEMembersGrp[1]->children('irs', true)->TINRequestTypeCd . '<br>';
+            echo '<b>irs:EIN: </b>' . $item->OtherALEMembersGrp[1]->children('irs', true)->EIN . '<br>';
+
+        }
+/////////////////////////////////////////////////////////////////////
+
+        echo '<h2>1095C Form Result</h2>';
+
+        foreach($xml as $item){
+
+            echo "<h3>Upstream Detail</h3>";
+            echo '<b>RecordId: </b>' . $item->Form1095CUpstreamDetail[0]->RecordId; echo '<br>';
+            echo '<b>CorrectedInd: </b>' . $item->Form1095CUpstreamDetail[0]->CorrectedInd; echo '<br>';
+            echo '<b>TaxYr: </b>' . $item->Form1095CUpstreamDetail[0]->TaxYr; echo '<br>';
+
+            echo "<h3>Employee Info</h3>";
+            echo '<b>PersonFirstNm: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeInfoGrp->OtherCompletePersonName->PersonFirstNm; echo '<br>';
+            echo '<b>PersonLastNm: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeInfoGrp->OtherCompletePersonName->PersonLastNm; echo '<br>';
+
+            echo '<b>irs:TINRequestTypeCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeInfoGrp->children('irs', true)->TINRequestTypeCd . '<br>';
+            echo '<b>irs:SSN: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeInfoGrp->children('irs', true)->SSN . '<br>';
+
+            echo "<h3>Employee Address</h3>";
+            echo '<b>AddressLine1Txt: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeInfoGrp->MailingAddressGrp->USAddressGrp->AddressLine1Txt; echo '<br>';
+            echo '<b>irs:CityNm: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeInfoGrp->MailingAddressGrp->USAddressGrp->children('irs', true)->CityNm . '<br>';
+            echo '<b>USStateCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeInfoGrp->MailingAddressGrp->USAddressGrp->USStateCd; echo '<br>';
+            echo '<b>irs:USZIPCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeInfoGrp->MailingAddressGrp->USAddressGrp->children('irs', true)->USZIPCd . '<br>';
+
+            echo '<b>ALEContactPhoneNum: </b>' . $item->Form1095CUpstreamDetail[0]->ALEContactPhoneNum; echo '<br>';
+            echo '<b>StartMonthNumberCd: </b>' . $item->Form1095CUpstreamDetail[0]->StartMonthNumberCd; echo '<br>';
+
+            echo "<h3>Monthly Coverage</h3>";
+            echo '<b>JanOfferCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->JanOfferCd; echo '<br>';
+            echo '<b>FebOfferCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->FebOfferCd; echo '<br>';
+            echo '<b>MarOfferCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->MarOfferCd; echo '<br>';
+            echo '<b>AprOfferCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->AprOfferCd; echo '<br>';
+            echo '<b>MayOfferCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->MayOfferCd; echo '<br>';
+            echo '<b>JunOfferCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->JunOfferCd; echo '<br>';
+            echo '<b>JulOfferCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->JulOfferCd; echo '<br>';
+            echo '<b>AugOfferCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->AugOfferCd; echo '<br>';
+            echo '<b>SepOfferCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->SepOfferCd; echo '<br>';
+            echo '<b>OctOfferCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->OctOfferCd; echo '<br>';
+            echo '<b>NovOfferCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->NovOfferCd; echo '<br>';
+            echo '<b>DecOfferCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->DecOfferCd; echo '<br>';
+
+
+            echo "<h3>Monthly Employee Required</h3>";
+            echo '<b>JanuaryAmt: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->JanuaryAmt; echo '<br>';
+            echo '<b>FebruaryAmt: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->FebruaryAmt; echo '<br>';
+            echo '<b>MarchAmt: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->MarchAmt; echo '<br>';
+            echo '<b>AprilAmt: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->AprilAmt; echo '<br>';
+            echo '<b>MayAmt: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->MayAmt; echo '<br>';
+            echo '<b>JuneAmt: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->JuneAmt; echo '<br>';
+            echo '<b>JulyAmt: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->JulyAmt; echo '<br>';
+            echo '<b>AugustAmt: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->AugustAmt; echo '<br>';
+            echo '<b>SeptemberAmt: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->SeptemberAmt; echo '<br>';
+            echo '<b>OctoberAmt: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->OctoberAmt; echo '<br>';
+            echo '<b>NovemberAmt: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->NovemberAmt; echo '<br>';
+            echo '<b>DecemberAmt: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->DecemberAmt; echo '<br>';
+
+
+
+            echo "<h3>Monthly Safe Harbor</h3>";
+            echo '<b>JanSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->JanSafeHarborCd; echo '<br>';
+            echo '<b>FebSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->FebSafeHarborCd; echo '<br>';
+            echo '<b>MarSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->MarSafeHarborCd; echo '<br>';
+            echo '<b>AprSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->AprSafeHarborCd; echo '<br>';
+            echo '<b>MaySafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->MaySafeHarborCd; echo '<br>';
+            echo '<b>JunSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->JunSafeHarborCd; echo '<br>';
+            echo '<b>JulSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->JulSafeHarborCd; echo '<br>';
+            echo '<b>AugSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->AugSafeHarborCd; echo '<br>';
+            echo '<b>SepSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->SepSafeHarborCd; echo '<br>';
+            echo '<b>OctSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->OctSafeHarborCd; echo '<br>';
+            echo '<b>NovSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->NovSafeHarborCd; echo '<br>';
+            echo '<b>DecSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[0]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->DecSafeHarborCd; echo '<br>';
+
+
+
+
+            echo "<h2>1095C 2</h2>";
+
+            echo "<h3>Upstream Detail</h3>";
+            echo '<b>RecordId: </b>' . $item->Form1095CUpstreamDetail[1]->RecordId; echo '<br>';
+            echo '<b>CorrectedInd: </b>' . $item->Form1095CUpstreamDetail[1]->CorrectedInd; echo '<br>';
+            echo '<b>TaxYr: </b>' . $item->Form1095CUpstreamDetail[1]->TaxYr; echo '<br>';
+
+            echo "<h3>Employee Info</h3>";
+            echo '<b>PersonFirstNm: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeInfoGrp->OtherCompletePersonName->PersonFirstNm; echo '<br>';
+            echo '<b>PersonLastNm: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeInfoGrp->OtherCompletePersonName->PersonLastNm; echo '<br>';
+
+            echo '<b>irs:TINRequestTypeCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeInfoGrp->children('irs', true)->TINRequestTypeCd . '<br>';
+            echo '<b>irs:SSN: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeInfoGrp->children('irs', true)->SSN . '<br>';
+
+            echo "<h3>Employee Address</h3>";
+            echo '<b>AddressLine1Txt: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeInfoGrp->MailingAddressGrp->USAddressGrp->AddressLine1Txt; echo '<br>';
+            echo '<b>irs:CityNm: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeInfoGrp->MailingAddressGrp->USAddressGrp->children('irs', true)->CityNm . '<br>';
+            echo '<b>USStateCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeInfoGrp->MailingAddressGrp->USAddressGrp->USStateCd; echo '<br>';
+            echo '<b>irs:USZIPCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeInfoGrp->MailingAddressGrp->USAddressGrp->children('irs', true)->USZIPCd . '<br>';
+
+            echo '<b>ALEContactPhoneNum: </b>' . $item->Form1095CUpstreamDetail[1]->ALEContactPhoneNum; echo '<br>';
+            echo '<b>StartMonthNumberCd: </b>' . $item->Form1095CUpstreamDetail[1]->StartMonthNumberCd; echo '<br>';
+
+            echo "<h3>Monthly Coverage</h3>";
+            echo '<b>JanOfferCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->JanOfferCd; echo '<br>';
+            echo '<b>FebOfferCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->FebOfferCd; echo '<br>';
+            echo '<b>MarOfferCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->MarOfferCd; echo '<br>';
+            echo '<b>AprOfferCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->AprOfferCd; echo '<br>';
+            echo '<b>MayOfferCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->MayOfferCd; echo '<br>';
+            echo '<b>JunOfferCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->JunOfferCd; echo '<br>';
+            echo '<b>JulOfferCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->JulOfferCd; echo '<br>';
+            echo '<b>AugOfferCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->AugOfferCd; echo '<br>';
+            echo '<b>SepOfferCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->SepOfferCd; echo '<br>';
+            echo '<b>OctOfferCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->OctOfferCd; echo '<br>';
+            echo '<b>NovOfferCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->NovOfferCd; echo '<br>';
+            echo '<b>DecOfferCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyOfferCoverageGrp->DecOfferCd; echo '<br>';
+
+
+            echo "<h3>Monthly Employee Required</h3>";
+            echo '<b>JanuaryAmt: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->JanuaryAmt; echo '<br>';
+            echo '<b>FebruaryAmt: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->FebruaryAmt; echo '<br>';
+            echo '<b>MarchAmt: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->MarchAmt; echo '<br>';
+            echo '<b>AprilAmt: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->AprilAmt; echo '<br>';
+            echo '<b>MayAmt: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->MayAmt; echo '<br>';
+            echo '<b>JuneAmt: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->JuneAmt; echo '<br>';
+            echo '<b>JulyAmt: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->JulyAmt; echo '<br>';
+            echo '<b>AugustAmt: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->AugustAmt; echo '<br>';
+            echo '<b>SeptemberAmt: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->SeptemberAmt; echo '<br>';
+            echo '<b>OctoberAmt: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->OctoberAmt; echo '<br>';
+            echo '<b>NovemberAmt: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->NovemberAmt; echo '<br>';
+            echo '<b>DecemberAmt: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlyEmployeeRequiredContriGrp->DecemberAmt; echo '<br>';
+
+
+            echo "<h3>Monthly Safe Harbor</h3>";
+            echo '<b>JanSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->JanSafeHarborCd; echo '<br>';
+            echo '<b>FebSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->FebSafeHarborCd; echo '<br>';
+            echo '<b>MarSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->MarSafeHarborCd; echo '<br>';
+            echo '<b>AprSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->AprSafeHarborCd; echo '<br>';
+            echo '<b>MaySafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->MaySafeHarborCd; echo '<br>';
+            echo '<b>JunSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->JunSafeHarborCd; echo '<br>';
+            echo '<b>JulSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->JulSafeHarborCd; echo '<br>';
+            echo '<b>AugSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->AugSafeHarborCd; echo '<br>';
+            echo '<b>SepSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->SepSafeHarborCd; echo '<br>';
+            echo '<b>OctSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->OctSafeHarborCd; echo '<br>';
+            echo '<b>NovSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->NovSafeHarborCd; echo '<br>';
+            echo '<b>DecSafeHarborCd: </b>' . $item->Form1095CUpstreamDetail[1]->EmployeeOfferAndCoverageGrp->MonthlySafeHarborGrp->DecSafeHarborCd; echo '<br>';
+
+            echo "<h3>Covered Individual</h3>";
+            echo '<b>CoveredIndividualInd: </b>' . $item->Form1095CUpstreamDetail[1]->CoveredIndividualInd; echo '<br>';
+        }
+
+
+    }
+?>
