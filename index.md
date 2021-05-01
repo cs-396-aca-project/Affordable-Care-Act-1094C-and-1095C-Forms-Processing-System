@@ -5,6 +5,8 @@
 <p>The Affordable Care Act (ACA) requires employers with 50 or more employees to provide employee health insurance. Part of this includes completion of forms 1094C and 1095C, and for employers with more than 200 employees an XML based report must also be submitted.</p>
   <p>Our team has developed a processing system that manages the PDF and XML publications to support the Affordable Care Act.</p>
   <br>
+  <h2>Vision</h2>
+  <p>There are two files are required when submitting 1094/1095-C forms to the IRS electronically, the main XML File and the Manifest File. This submittal process is known as Affordable care act Information Returns (AIR).</p>
   <h2>Current Status</h2> 
   <p>We have our applications working which are xml prototype for the 1094/1095 form to show how our XML should look like when we convert the PDF form and data from the database to an XML. We have a working database with an rscript file.</p>
 <h2>Team Members</h2> 
