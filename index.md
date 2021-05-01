@@ -8,10 +8,15 @@
   <h2>Vision</h2>
   <p>There are two files are required when submitting 1094/1095-C forms to the IRS electronically, the main XML File and the Manifest File. This submittal process is known as Affordable care act Information Returns (AIR).</p>
   <p>This project has aimed towards: </p>
+  <br>
 <p>Developing a database repository that can maintain ACA information for a single organization</p>
+  <br>
 <p>A front end with CRUD support</p>
+  <br>
 <p>Publication that required PDF forms for 1094C and 1095C</p>
+  <br>
 <p>Publication of XML files to support electronic submission of 1094C and 1095C information</p>
+  <br>
 <p>An automated quality control mechanism to confirm adherence to the required XML Schema </p>
   <h2>Current Status</h2> 
   <p>We have our applications working which are xml prototype for the 1094/1095 form to show how our XML should look like when we convert the PDF form and data from the database to an XML. We have a working database with an rscript file.</p>
