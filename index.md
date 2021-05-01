@@ -17,6 +17,8 @@
   <p>Alfred and Young In have previously worked on this project</p>
   <h2>Our GitHub</h2>
   <p><a href="https://github.com/cs-396-aca-project">Project GitHub</a></p>
+  <p><a href="https://github.com/cs-396-aca-project">Video Presentation??</a></p>
+  <p><a href="https://github.com/cs-396-aca-project">Final Report??</a></p>
   <p><a href="https://docs.google.com/document/d/1KqeGyMWgwET9CFBTbGb6jeKMEkOPgPhx-byzVdGN9tA/edit?usp=sharing">Project_Proposal</a></p>
   <p><a href="https://computing.calvin.edu/">Calvin Univesity Computer Science Department</a></p>
 </body>
