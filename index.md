@@ -15,7 +15,7 @@
 <p>Publication of XML files to support electronic submission of 1094C and 1095C information</p>
 <p>An automated quality control mechanism to confirm adherence to the required XML Schema </p>
    <p><a href="https://www.irs.gov/pub/irs-schema/1095c_ty2015_cw.pdf">1094C Schema PDF</a></p>
-   <p><a href="https://www.irs.gov/pub/irs-schema/1095c_ty2015_cw.pdf">1095C schema PDF</a></p>
+   <p><a href="https://www.irs.gov/pub/irs-schema/1095c_ty2015_cw.pdf">1095C Schema PDF</a></p>
   <h2>Current Status</h2> 
   <p>We have our applications working which are xml prototype for the 1094/1095 form to show how our XML should look like when we convert the PDF form and data from the database to an XML. We have a working database with an rscript file.</p>
 <h2>Team Members</h2> 
