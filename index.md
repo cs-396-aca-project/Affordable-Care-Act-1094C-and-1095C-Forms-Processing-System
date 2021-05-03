@@ -10,13 +10,9 @@
   <p>This project has aimed towards: </p>
   <br>
 <p>Developing a database repository that can maintain ACA information for a single organization</p>
-  <br>
 <p>A front end with CRUD support</p>
-  <br>
 <p>Publication that required PDF forms for 1094C and 1095C</p>
-  <br>
 <p>Publication of XML files to support electronic submission of 1094C and 1095C information</p>
-  <br>
 <p>An automated quality control mechanism to confirm adherence to the required XML Schema </p>
    <p><a href="https://www.irs.gov/pub/irs-schema/1095c_ty2015_cw.pdf">1094C Schema PDF</a></p>
    <p><a href="https://www.irs.gov/pub/irs-schema/1095c_ty2015_cw.pdf">1095C schema PDF</a></p>
