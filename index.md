@@ -19,11 +19,13 @@
    <p><a href="https://www.irs.gov/pub/irs-schema/1095c_ty2015_cw.pdf">1095C Schema PDF</a></p>
   <h2>Current Status</h2> 
   <p>We have our applications working which are xml prototype for the 1094/1095 form to show how our XML should look like when we convert the PDF form and data from the database to an XML. We have a working database with an rscript file.</p>
+  <p>We are attempting to get the manifest to work by using Python.</p>
+  <p>We have a working php file that connects to the database we implemented for the project with the rscript. The server will create a form that users can use and when the data is submitted the database wil show the saved information.</p>
 <h2>Team Members</h2> 
   <ul>
-  <li>Marcos Hernandez - Senior Calvin student from Nicaragua majoring in B.S Computer Science. He decided to major in Computer Science
+  <li><strong>Marcos Hernandez</strong> - Senior Calvin student from Nicaragua majoring in B.S Computer Science. He decided to major in Computer Science
    when he took his first Programming class in High School. He desires to use his degree to develop Software, Games, and Websites.</li>
-  <li>Sanjeev Dasari - Senior Calvin student from India majoring in Computer Science</li>
+  <li><strong>Sanjeev Dasari</strong> - Senior Calvin student from India majoring in Computer Science</li>
   </ul> 
   <p>Alfred and Young In have previously worked on this project</p>
   <h2>Our GitHub</h2>
