@@ -35,11 +35,12 @@
   <p><a href="https://docs.google.com/presentation/d/1ybvRam98SkYwoJYI_A8N4EFrpHOR5boPMb69oRjmZB0/edit?usp=sharing">Powerpoint Slides</a></p>
   <h2>Presentation</h2>
   <p><a href="https://github.com/cs-396-aca-project">Video Presentation??</a></p>
+  
   <h2>Report</h2>
   <p><a href="https://docs.google.com/document/d/1ojAceCeC2Dx-D0hh-KpuVJNaehiHrIpyTyiscqzg-tc/edit?usp=sharing">Final Report</a></p>
 
   <h2>Proposal</h2>
-  <p><a href="https://docs.google.com/document/d/1KqeGyMWgwET9CFBTbGb6jeKMEkOPgPhx-byzVdGN9tA/edit?usp=sharing">Project_Proposal</a></p>
+  <p><a href="https://docs.google.com/document/d/1KqeGyMWgwET9CFBTbGb6jeKMEkOPgPhx-byzVdGN9tA/edit?usp=sharing">Project Proposal</a></p>
 
   <h2>Additional Resources</h2>
   <p><a href="https://computing.calvin.edu/">Calvin Univesity Computer Science Department</a></p>
