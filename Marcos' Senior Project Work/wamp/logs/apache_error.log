@@ -1,0 +1,1303 @@
+[Tue May 11 22:42:48 2021] [notice] Apache/2.2.11 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Tue May 11 22:42:48 2021] [notice] Server built: Dec 10 2008 00:10:06
+[Tue May 11 22:42:48 2021] [notice] Parent: Created child process 7092
+[Tue May 11 22:42:49 2021] [notice] Child 7092: Child process is running
+[Tue May 11 22:42:49 2021] [notice] Child 7092: Acquired the start mutex.
+[Tue May 11 22:42:49 2021] [notice] Child 7092: Starting 64 worker threads.
+[Tue May 11 22:42:49 2021] [notice] Child 7092: Starting thread to listen on port 80.
+[Tue May 11 22:45:06 2021] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 11 22:45:06 2021] [notice] Child 7092: Exit event signaled. Child process is ending.
+[Tue May 11 22:45:07 2021] [notice] Child 7092: Released the start mutex
+[Tue May 11 22:45:08 2021] [notice] Child 7092: All worker threads have exited.
+[Tue May 11 22:45:08 2021] [notice] Child 7092: Child process is exiting
+[Tue May 11 22:45:08 2021] [notice] Parent: Child process exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Tue May 11 22:45:10 2021] [notice] Apache/2.2.11 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Tue May 11 22:45:10 2021] [notice] Server built: Dec 10 2008 00:10:06
+[Tue May 11 22:45:10 2021] [notice] Parent: Created child process 17144
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+[Tue May 11 22:45:10 2021] [notice] Child 17144: Child process is running
+[Tue May 11 22:45:10 2021] [notice] Child 17144: Acquired the start mutex.
+[Tue May 11 22:45:10 2021] [notice] Child 17144: Starting 64 worker threads.
+[Tue May 11 22:45:10 2021] [notice] Child 17144: Starting thread to listen on port 80.
+[Tue May 11 22:45:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_FirstName in C:\\wamp\\www\\index.php on line 15, referer: http://localhost/
+[Tue May 11 22:45:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_LastName in C:\\wamp\\www\\index.php on line 16, referer: http://localhost/
+[Tue May 11 22:45:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: IndividualSSN in C:\\wamp\\www\\index.php on line 17, referer: http://localhost/
+[Tue May 11 22:45:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L3_StreetAddress in C:\\wamp\\www\\index.php on line 18, referer: http://localhost/
+[Tue May 11 22:45:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L4_City in C:\\wamp\\www\\index.php on line 19, referer: http://localhost/
+[Tue May 11 22:45:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L5_State in C:\\wamp\\www\\index.php on line 20, referer: http://localhost/
+[Tue May 11 22:45:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L6_ZipCode in C:\\wamp\\www\\index.php on line 21, referer: http://localhost/
+[Tue May 11 22:45:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_EmployeeName in C:\\wamp\\www\\index.php on line 22, referer: http://localhost/
+[Tue May 11 22:45:27 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_query() in C:\\wamp\\www\\index.php on line 35, referer: http://localhost/
+[Tue May 11 22:45:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_FirstName in C:\\wamp\\www\\index.php on line 15, referer: http://localhost/
+[Tue May 11 22:45:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_LastName in C:\\wamp\\www\\index.php on line 16, referer: http://localhost/
+[Tue May 11 22:45:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: IndividualSSN in C:\\wamp\\www\\index.php on line 17, referer: http://localhost/
+[Tue May 11 22:45:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L3_StreetAddress in C:\\wamp\\www\\index.php on line 18, referer: http://localhost/
+[Tue May 11 22:45:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L4_City in C:\\wamp\\www\\index.php on line 19, referer: http://localhost/
+[Tue May 11 22:45:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L5_State in C:\\wamp\\www\\index.php on line 20, referer: http://localhost/
+[Tue May 11 22:45:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L6_ZipCode in C:\\wamp\\www\\index.php on line 21, referer: http://localhost/
+[Tue May 11 22:45:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_EmployeeName in C:\\wamp\\www\\index.php on line 22, referer: http://localhost/
+[Tue May 11 22:45:32 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_query() in C:\\wamp\\www\\index.php on line 35, referer: http://localhost/
+[Tue May 11 22:45:32 2021] [error] [client 127.0.0.1] File does not exist: C:/wamp/www/favicon.ico, referer: http://localhost/
+[Tue May 11 22:45:44 2021] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 11 22:45:44 2021] [notice] Child 17144: Exit event signaled. Child process is ending.
+[Tue May 11 22:45:45 2021] [notice] Child 17144: Released the start mutex
+[Tue May 11 22:46:14 2021] [notice] Parent: Forcing termination of child process 700 
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Tue May 11 22:46:15 2021] [notice] Apache/2.2.11 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Tue May 11 22:46:15 2021] [notice] Server built: Dec 10 2008 00:10:06
+[Tue May 11 22:46:15 2021] [notice] Parent: Created child process 9616
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+[Tue May 11 22:46:15 2021] [notice] Child 9616: Child process is running
+[Tue May 11 22:46:15 2021] [notice] Child 9616: Acquired the start mutex.
+[Tue May 11 22:46:15 2021] [notice] Child 9616: Starting 64 worker threads.
+[Tue May 11 22:46:15 2021] [notice] Child 9616: Starting thread to listen on port 80.
+[Tue May 11 22:52:15 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_FirstName in C:\\wamp\\www\\index.php on line 15, referer: http://localhost/
+[Tue May 11 22:52:15 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_LastName in C:\\wamp\\www\\index.php on line 16, referer: http://localhost/
+[Tue May 11 22:52:15 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: IndividualSSN in C:\\wamp\\www\\index.php on line 17, referer: http://localhost/
+[Tue May 11 22:52:15 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L3_StreetAddress in C:\\wamp\\www\\index.php on line 18, referer: http://localhost/
+[Tue May 11 22:52:15 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L4_City in C:\\wamp\\www\\index.php on line 19, referer: http://localhost/
+[Tue May 11 22:52:15 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L5_State in C:\\wamp\\www\\index.php on line 20, referer: http://localhost/
+[Tue May 11 22:52:15 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L6_ZipCode in C:\\wamp\\www\\index.php on line 21, referer: http://localhost/
+[Tue May 11 22:52:15 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_EmployeeName in C:\\wamp\\www\\index.php on line 22, referer: http://localhost/
+[Tue May 11 22:52:15 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_query() in C:\\wamp\\www\\index.php on line 35, referer: http://localhost/
+[Tue May 11 22:54:48 2021] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 11 22:54:48 2021] [notice] Child 9616: Exit event signaled. Child process is ending.
+[Tue May 11 22:54:49 2021] [notice] Child 9616: Released the start mutex
+[Tue May 11 22:55:18 2021] [notice] Parent: Forcing termination of child process 600 
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_7_nts_x86.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_7_ts_x86.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Tue May 11 22:55:36 2021] [notice] Apache/2.2.11 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Tue May 11 22:55:36 2021] [notice] Server built: Dec 10 2008 00:10:06
+[Tue May 11 22:55:36 2021] [notice] Parent: Created child process 5928
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_7_nts_x86.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_7_nts_x86.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_7_ts_x86.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_7_ts_x86.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+[Tue May 11 22:55:36 2021] [notice] Child 5928: Child process is running
+[Tue May 11 22:55:36 2021] [notice] Child 5928: Acquired the start mutex.
+[Tue May 11 22:55:36 2021] [notice] Child 5928: Starting 64 worker threads.
+[Tue May 11 22:55:36 2021] [notice] Child 5928: Starting thread to listen on port 80.
+[Tue May 11 22:56:20 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_FirstName in C:\\wamp\\www\\index.php on line 15, referer: http://localhost/
+[Tue May 11 22:56:20 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_LastName in C:\\wamp\\www\\index.php on line 16, referer: http://localhost/
+[Tue May 11 22:56:20 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: IndividualSSN in C:\\wamp\\www\\index.php on line 17, referer: http://localhost/
+[Tue May 11 22:56:20 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L3_StreetAddress in C:\\wamp\\www\\index.php on line 18, referer: http://localhost/
+[Tue May 11 22:56:20 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L4_City in C:\\wamp\\www\\index.php on line 19, referer: http://localhost/
+[Tue May 11 22:56:20 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L5_State in C:\\wamp\\www\\index.php on line 20, referer: http://localhost/
+[Tue May 11 22:56:20 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L6_ZipCode in C:\\wamp\\www\\index.php on line 21, referer: http://localhost/
+[Tue May 11 22:56:20 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_EmployeeName in C:\\wamp\\www\\index.php on line 22, referer: http://localhost/
+[Tue May 11 22:56:20 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_query() in C:\\wamp\\www\\index.php on line 35, referer: http://localhost/
+[Tue May 11 23:00:01 2021] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 11 23:00:01 2021] [notice] Child 5928: Exit event signaled. Child process is ending.
+[Tue May 11 23:00:02 2021] [notice] Child 5928: Released the start mutex
+[Tue May 11 23:00:03 2021] [notice] Child 5928: All worker threads have exited.
+[Tue May 11 23:00:03 2021] [notice] Child 5928: Child process is exiting
+[Tue May 11 23:00:03 2021] [notice] Parent: Child process exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+[Tue May 11 23:01:31 2021] [notice] Apache/2.2.11 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Tue May 11 23:01:31 2021] [notice] Server built: Dec 10 2008 00:10:06
+[Tue May 11 23:01:31 2021] [notice] Parent: Created child process 12652
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with build ID=API20090626,TS,VC9
+PHP    compiled with build ID=API20090626,TS,VC6
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+[Tue May 11 23:01:31 2021] [notice] Child 12652: Child process is running
+[Tue May 11 23:01:31 2021] [notice] Child 12652: Acquired the start mutex.
+[Tue May 11 23:01:31 2021] [notice] Child 12652: Starting 64 worker threads.
+[Tue May 11 23:01:31 2021] [notice] Child 12652: Starting thread to listen on port 80.
+[Tue May 11 23:01:47 2021] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 11 23:01:47 2021] [notice] Child 12652: Exit event signaled. Child process is ending.
+[Tue May 11 23:01:48 2021] [notice] Child 12652: Released the start mutex
+[Tue May 11 23:01:49 2021] [notice] Child 12652: All worker threads have exited.
+[Tue May 11 23:01:49 2021] [notice] Child 12652: Child process is exiting
+[Tue May 11 23:01:49 2021] [notice] Parent: Child process exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+[Tue May 11 23:01:49 2021] [notice] Apache/2.2.11 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Tue May 11 23:01:49 2021] [notice] Server built: Dec 10 2008 00:10:06
+[Tue May 11 23:01:49 2021] [notice] Parent: Created child process 16636
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with build ID=API20090626,TS,VC9
+PHP    compiled with build ID=API20090626,TS,VC6
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+[Tue May 11 23:01:49 2021] [notice] Child 16636: Child process is running
+[Tue May 11 23:01:49 2021] [notice] Child 16636: Acquired the start mutex.
+[Tue May 11 23:01:49 2021] [notice] Child 16636: Starting 64 worker threads.
+[Tue May 11 23:01:49 2021] [notice] Child 16636: Starting thread to listen on port 80.
+[Tue May 11 23:02:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_FirstName in C:\\wamp\\www\\index.php on line 15, referer: http://localhost/
+[Tue May 11 23:02:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_LastName in C:\\wamp\\www\\index.php on line 16, referer: http://localhost/
+[Tue May 11 23:02:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: IndividualSSN in C:\\wamp\\www\\index.php on line 17, referer: http://localhost/
+[Tue May 11 23:02:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L3_StreetAddress in C:\\wamp\\www\\index.php on line 18, referer: http://localhost/
+[Tue May 11 23:02:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L4_City in C:\\wamp\\www\\index.php on line 19, referer: http://localhost/
+[Tue May 11 23:02:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L5_State in C:\\wamp\\www\\index.php on line 20, referer: http://localhost/
+[Tue May 11 23:02:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L6_ZipCode in C:\\wamp\\www\\index.php on line 21, referer: http://localhost/
+[Tue May 11 23:02:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_EmployeeName in C:\\wamp\\www\\index.php on line 22, referer: http://localhost/
+[Tue May 11 23:02:02 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_query() in C:\\wamp\\www\\index.php on line 35, referer: http://localhost/
+[Tue May 11 23:03:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_FirstName in C:\\wamp\\www\\index.php on line 15, referer: http://localhost/
+[Tue May 11 23:03:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_LastName in C:\\wamp\\www\\index.php on line 16, referer: http://localhost/
+[Tue May 11 23:03:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: IndividualSSN in C:\\wamp\\www\\index.php on line 17, referer: http://localhost/
+[Tue May 11 23:03:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L3_StreetAddress in C:\\wamp\\www\\index.php on line 18, referer: http://localhost/
+[Tue May 11 23:03:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L4_City in C:\\wamp\\www\\index.php on line 19, referer: http://localhost/
+[Tue May 11 23:03:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L5_State in C:\\wamp\\www\\index.php on line 20, referer: http://localhost/
+[Tue May 11 23:03:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L6_ZipCode in C:\\wamp\\www\\index.php on line 21, referer: http://localhost/
+[Tue May 11 23:03:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_EmployeeName in C:\\wamp\\www\\index.php on line 22, referer: http://localhost/
+[Tue May 11 23:03:21 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_query() in C:\\wamp\\www\\index.php on line 35, referer: http://localhost/
+[Tue May 11 23:03:24 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_FirstName in C:\\wamp\\www\\index.php on line 15, referer: http://localhost/
+[Tue May 11 23:03:24 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_LastName in C:\\wamp\\www\\index.php on line 16, referer: http://localhost/
+[Tue May 11 23:03:24 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: IndividualSSN in C:\\wamp\\www\\index.php on line 17, referer: http://localhost/
+[Tue May 11 23:03:24 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L3_StreetAddress in C:\\wamp\\www\\index.php on line 18, referer: http://localhost/
+[Tue May 11 23:03:24 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L4_City in C:\\wamp\\www\\index.php on line 19, referer: http://localhost/
+[Tue May 11 23:03:24 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L5_State in C:\\wamp\\www\\index.php on line 20, referer: http://localhost/
+[Tue May 11 23:03:24 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L6_ZipCode in C:\\wamp\\www\\index.php on line 21, referer: http://localhost/
+[Tue May 11 23:03:24 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_EmployeeName in C:\\wamp\\www\\index.php on line 22, referer: http://localhost/
+[Tue May 11 23:03:24 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_query() in C:\\wamp\\www\\index.php on line 35, referer: http://localhost/
+[Tue May 11 23:05:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_FirstName in C:\\wamp\\www\\index.php on line 15, referer: http://localhost/
+[Tue May 11 23:05:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_LastName in C:\\wamp\\www\\index.php on line 16, referer: http://localhost/
+[Tue May 11 23:05:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: IndividualSSN in C:\\wamp\\www\\index.php on line 17, referer: http://localhost/
+[Tue May 11 23:05:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L3_StreetAddress in C:\\wamp\\www\\index.php on line 18, referer: http://localhost/
+[Tue May 11 23:05:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L4_City in C:\\wamp\\www\\index.php on line 19, referer: http://localhost/
+[Tue May 11 23:05:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L5_State in C:\\wamp\\www\\index.php on line 20, referer: http://localhost/
+[Tue May 11 23:05:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L6_ZipCode in C:\\wamp\\www\\index.php on line 21, referer: http://localhost/
+[Tue May 11 23:05:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_EmployeeName in C:\\wamp\\www\\index.php on line 22, referer: http://localhost/
+[Tue May 11 23:05:57 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_query() in C:\\wamp\\www\\index.php on line 35, referer: http://localhost/
+[Tue May 11 23:06:31 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_FirstName in C:\\wamp\\www\\index.php on line 15, referer: http://localhost/
+[Tue May 11 23:06:31 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_LastName in C:\\wamp\\www\\index.php on line 16, referer: http://localhost/
+[Tue May 11 23:06:31 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: IndividualSSN in C:\\wamp\\www\\index.php on line 17, referer: http://localhost/
+[Tue May 11 23:06:31 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L3_StreetAddress in C:\\wamp\\www\\index.php on line 18, referer: http://localhost/
+[Tue May 11 23:06:31 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L4_City in C:\\wamp\\www\\index.php on line 19, referer: http://localhost/
+[Tue May 11 23:06:31 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L5_State in C:\\wamp\\www\\index.php on line 20, referer: http://localhost/
+[Tue May 11 23:06:31 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L6_ZipCode in C:\\wamp\\www\\index.php on line 21, referer: http://localhost/
+[Tue May 11 23:06:31 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_EmployeeName in C:\\wamp\\www\\index.php on line 22, referer: http://localhost/
+[Tue May 11 23:06:31 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_query() in C:\\wamp\\www\\index.php on line 35, referer: http://localhost/
+[Tue May 11 23:11:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_FirstName in C:\\wamp\\www\\index.php on line 15, referer: http://localhost/
+[Tue May 11 23:11:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_LastName in C:\\wamp\\www\\index.php on line 16, referer: http://localhost/
+[Tue May 11 23:11:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: IndividualSSN in C:\\wamp\\www\\index.php on line 17, referer: http://localhost/
+[Tue May 11 23:11:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L3_StreetAddress in C:\\wamp\\www\\index.php on line 18, referer: http://localhost/
+[Tue May 11 23:11:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L4_City in C:\\wamp\\www\\index.php on line 19, referer: http://localhost/
+[Tue May 11 23:11:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L5_State in C:\\wamp\\www\\index.php on line 20, referer: http://localhost/
+[Tue May 11 23:11:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L6_ZipCode in C:\\wamp\\www\\index.php on line 21, referer: http://localhost/
+[Tue May 11 23:11:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_EmployeeName in C:\\wamp\\www\\index.php on line 22, referer: http://localhost/
+[Tue May 11 23:11:02 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]String or binary data would be truncated in table 'rawtest2.dbo.YEEmployerBaseFiled', column 'RState'. Truncated value: '30'., SQL state 37000 in SQLExecDirect in C:\\wamp\\www\\index.php on line 33, referer: http://localhost/
+[Tue May 11 23:14:10 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_FirstName in C:\\wamp\\www\\index.php on line 15, referer: http://localhost/
+[Tue May 11 23:14:10 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_LastName in C:\\wamp\\www\\index.php on line 16, referer: http://localhost/
+[Tue May 11 23:14:10 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: IndividualSSN in C:\\wamp\\www\\index.php on line 17, referer: http://localhost/
+[Tue May 11 23:14:10 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L3_StreetAddress in C:\\wamp\\www\\index.php on line 18, referer: http://localhost/
+[Tue May 11 23:14:10 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L4_City in C:\\wamp\\www\\index.php on line 19, referer: http://localhost/
+[Tue May 11 23:14:10 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L5_State in C:\\wamp\\www\\index.php on line 20, referer: http://localhost/
+[Tue May 11 23:14:10 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L6_ZipCode in C:\\wamp\\www\\index.php on line 21, referer: http://localhost/
+[Tue May 11 23:14:10 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_EmployeeName in C:\\wamp\\www\\index.php on line 22, referer: http://localhost/
+[Tue May 11 23:14:10 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]String or binary data would be truncated in table 'rawtest2.dbo.YEEmployerBaseFiled', column 'RState'. Truncated value: '30'., SQL state 37000 in SQLExecDirect in C:\\wamp\\www\\index.php on line 33, referer: http://localhost/
+[Tue May 11 23:15:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_FirstName in C:\\wamp\\www\\index.php on line 15, referer: http://localhost/
+[Tue May 11 23:15:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_LastName in C:\\wamp\\www\\index.php on line 16, referer: http://localhost/
+[Tue May 11 23:15:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: IndividualSSN in C:\\wamp\\www\\index.php on line 17, referer: http://localhost/
+[Tue May 11 23:15:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L3_StreetAddress in C:\\wamp\\www\\index.php on line 18, referer: http://localhost/
+[Tue May 11 23:15:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L4_City in C:\\wamp\\www\\index.php on line 19, referer: http://localhost/
+[Tue May 11 23:15:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L5_State in C:\\wamp\\www\\index.php on line 20, referer: http://localhost/
+[Tue May 11 23:15:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L6_ZipCode in C:\\wamp\\www\\index.php on line 21, referer: http://localhost/
+[Tue May 11 23:15:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_EmployeeName in C:\\wamp\\www\\index.php on line 22, referer: http://localhost/
+[Tue May 11 23:15:03 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]String or binary data would be truncated in table 'rawtest2.dbo.YEEmployerBaseFiled', column 'RState'. Truncated value: '30'., SQL state 37000 in SQLExecDirect in C:\\wamp\\www\\index.php on line 33, referer: http://localhost/
+[Tue May 11 23:17:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_FirstName in C:\\wamp\\www\\index.php on line 15, referer: http://localhost/
+[Tue May 11 23:17:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_LastName in C:\\wamp\\www\\index.php on line 16, referer: http://localhost/
+[Tue May 11 23:17:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: IndividualSSN in C:\\wamp\\www\\index.php on line 17, referer: http://localhost/
+[Tue May 11 23:17:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L3_StreetAddress in C:\\wamp\\www\\index.php on line 18, referer: http://localhost/
+[Tue May 11 23:17:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L4_City in C:\\wamp\\www\\index.php on line 19, referer: http://localhost/
+[Tue May 11 23:17:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L5_State in C:\\wamp\\www\\index.php on line 20, referer: http://localhost/
+[Tue May 11 23:17:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L6_ZipCode in C:\\wamp\\www\\index.php on line 21, referer: http://localhost/
+[Tue May 11 23:17:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_EmployeeName in C:\\wamp\\www\\index.php on line 22, referer: http://localhost/
+[Tue May 11 23:27:46 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_fetch_array() in C:\\wamp\\www\\index.php on line 53
+[Tue May 11 23:29:22 2021] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 11 23:29:22 2021] [notice] Child 16636: Exit event signaled. Child process is ending.
+[Tue May 11 23:29:23 2021] [notice] Child 16636: Released the start mutex
+[Tue May 11 23:29:24 2021] [notice] Child 16636: All worker threads have exited.
+[Tue May 11 23:29:24 2021] [notice] Child 16636: Child process is exiting
+[Tue May 11 23:29:24 2021] [notice] Parent: Child process exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Tue May 11 23:29:24 2021] [notice] Apache/2.2.11 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Tue May 11 23:29:24 2021] [notice] Server built: Dec 10 2008 00:10:06
+[Tue May 11 23:29:24 2021] [notice] Parent: Created child process 13944
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with build ID=API20090626,TS,VC9
+PHP    compiled with build ID=API20090626,TS,VC6
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+[Tue May 11 23:29:24 2021] [notice] Child 13944: Child process is running
+[Tue May 11 23:29:24 2021] [notice] Child 13944: Acquired the start mutex.
+[Tue May 11 23:29:24 2021] [notice] Child 13944: Starting 64 worker threads.
+[Tue May 11 23:29:24 2021] [notice] Child 13944: Starting thread to listen on port 80.
+[Tue May 11 23:29:30 2021] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 11 23:29:30 2021] [notice] Child 13944: Exit event signaled. Child process is ending.
+[Tue May 11 23:29:31 2021] [notice] Child 13944: Released the start mutex
+[Tue May 11 23:29:32 2021] [notice] Child 13944: All worker threads have exited.
+[Tue May 11 23:29:32 2021] [notice] Child 13944: Child process is exiting
+[Tue May 11 23:29:32 2021] [notice] Parent: Child process exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20100525\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+[Tue May 11 23:29:33 2021] [notice] Apache/2.2.11 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Tue May 11 23:29:33 2021] [notice] Server built: Dec 10 2008 00:10:06
+[Tue May 11 23:29:33 2021] [notice] Parent: Created child process 7496
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with build ID=API20090626,TS,VC9
+PHP    compiled with build ID=API20090626,TS,VC6
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20100525\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20090626
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+[Tue May 11 23:29:33 2021] [notice] Child 7496: Child process is running
+[Tue May 11 23:29:33 2021] [notice] Child 7496: Acquired the start mutex.
+[Tue May 11 23:29:33 2021] [notice] Child 7496: Starting 64 worker threads.
+[Tue May 11 23:29:33 2021] [notice] Child 7496: Starting thread to listen on port 80.
+[Tue May 11 23:29:37 2021] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 11 23:29:37 2021] [notice] Child 7496: Exit event signaled. Child process is ending.
+[Tue May 11 23:29:38 2021] [notice] Child 7496: Released the start mutex
+[Tue May 11 23:29:39 2021] [notice] Child 7496: All worker threads have exited.
+[Tue May 11 23:29:39 2021] [notice] Child 7496: Child process is exiting
+[Tue May 11 23:29:39 2021] [notice] Parent: Child process exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20100525\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Tue May 11 23:29:48 2021] [notice] Apache/2.2.11 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Tue May 11 23:29:48 2021] [notice] Server built: Dec 10 2008 00:10:06
+[Tue May 11 23:29:48 2021] [notice] Parent: Created child process 13296
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with build ID=API20090626,TS,VC9
+PHP    compiled with build ID=API20090626,TS,VC6
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20100525\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20090626
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+[Tue May 11 23:29:48 2021] [notice] Child 13296: Child process is running
+[Tue May 11 23:29:48 2021] [notice] Child 13296: Acquired the start mutex.
+[Tue May 11 23:29:48 2021] [notice] Child 13296: Starting 64 worker threads.
+[Tue May 11 23:29:48 2021] [notice] Child 13296: Starting thread to listen on port 80.
+[Tue May 11 23:30:30 2021] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 11 23:30:30 2021] [notice] Child 13296: Exit event signaled. Child process is ending.
+[Tue May 11 23:30:31 2021] [notice] Child 13296: Released the start mutex
+[Tue May 11 23:30:32 2021] [notice] Child 13296: All worker threads have exited.
+[Tue May 11 23:30:32 2021] [notice] Child 13296: Child process is exiting
+[Tue May 11 23:30:32 2021] [notice] Parent: Child process exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20100525\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20121212\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+[Tue May 11 23:30:38 2021] [notice] Apache/2.2.11 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Tue May 11 23:30:38 2021] [notice] Server built: Dec 10 2008 00:10:06
+[Tue May 11 23:30:38 2021] [notice] Parent: Created child process 5304
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with build ID=API20090626,TS,VC9
+PHP    compiled with build ID=API20090626,TS,VC6
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20100525\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20090626
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20121212\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20090626
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+[Tue May 11 23:30:38 2021] [notice] Child 5304: Child process is running
+[Tue May 11 23:30:38 2021] [notice] Child 5304: Acquired the start mutex.
+[Tue May 11 23:30:38 2021] [notice] Child 5304: Starting 64 worker threads.
+[Tue May 11 23:30:38 2021] [notice] Child 5304: Starting thread to listen on port 80.
+[Tue May 11 23:31:00 2021] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 11 23:31:00 2021] [notice] Child 5304: Exit event signaled. Child process is ending.
+[Tue May 11 23:31:01 2021] [notice] Child 5304: Released the start mutex
+[Tue May 11 23:31:02 2021] [notice] Child 5304: All worker threads have exited.
+[Tue May 11 23:31:02 2021] [notice] Child 5304: Child process is exiting
+[Tue May 11 23:31:02 2021] [notice] Parent: Child process exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20100525\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20121212\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+[Tue May 11 23:31:02 2021] [notice] Apache/2.2.11 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Tue May 11 23:31:02 2021] [notice] Server built: Dec 10 2008 00:10:06
+[Tue May 11 23:31:02 2021] [notice] Parent: Created child process 15224
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with build ID=API20090626,TS,VC9
+PHP    compiled with build ID=API20090626,TS,VC6
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20100525\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20090626
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20121212\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20090626
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+[Tue May 11 23:31:02 2021] [notice] Child 15224: Child process is running
+[Tue May 11 23:31:02 2021] [notice] Child 15224: Acquired the start mutex.
+[Tue May 11 23:31:02 2021] [notice] Child 15224: Starting 64 worker threads.
+[Tue May 11 23:31:02 2021] [notice] Child 15224: Starting thread to listen on port 80.
+[Tue May 11 23:31:08 2021] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 11 23:31:08 2021] [notice] Child 15224: Exit event signaled. Child process is ending.
+[Tue May 11 23:31:09 2021] [notice] Child 15224: Released the start mutex
+[Tue May 11 23:31:10 2021] [notice] Child 15224: All worker threads have exited.
+[Tue May 11 23:31:10 2021] [notice] Child 15224: Child process is exiting
+[Tue May 11 23:31:10 2021] [notice] Parent: Child process exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20100525\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20121212\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_56_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Tue May 11 23:31:10 2021] [notice] Apache/2.2.11 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Tue May 11 23:31:10 2021] [notice] Server built: Dec 10 2008 00:10:06
+[Tue May 11 23:31:10 2021] [notice] Parent: Created child process 16452
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with build ID=API20090626,TS,VC9
+PHP    compiled with build ID=API20090626,TS,VC6
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20100525\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20090626
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20121212\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20090626
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_56_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_56_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+[Tue May 11 23:31:10 2021] [notice] Child 16452: Child process is running
+[Tue May 11 23:31:10 2021] [notice] Child 16452: Acquired the start mutex.
+[Tue May 11 23:31:10 2021] [notice] Child 16452: Starting 64 worker threads.
+[Tue May 11 23:31:10 2021] [notice] Child 16452: Starting thread to listen on port 80.
+[Tue May 11 23:31:51 2021] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue May 11 23:31:51 2021] [notice] Child 16452: Exit event signaled. Child process is ending.
+[Tue May 11 23:31:52 2021] [notice] Child 16452: Released the start mutex
+[Tue May 11 23:31:53 2021] [notice] Child 16452: All worker threads have exited.
+[Tue May 11 23:31:53 2021] [notice] Child 16452: Child process is exiting
+[Tue May 11 23:31:53 2021] [notice] Parent: Child process exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20100525\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20121212\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_56_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Tue May 11 23:32:22 2021] [notice] Apache/2.2.11 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Tue May 11 23:32:22 2021] [notice] Server built: Dec 10 2008 00:10:06
+[Tue May 11 23:32:22 2021] [notice] Parent: Created child process 16708
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with build ID=API20090626,TS,VC9
+PHP    compiled with build ID=API20090626,TS,VC6
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20100525\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20090626
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20121212\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20090626
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_56_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_56_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+[Tue May 11 23:32:23 2021] [notice] Child 16708: Child process is running
+[Tue May 11 23:32:23 2021] [notice] Child 16708: Acquired the start mutex.
+[Tue May 11 23:32:23 2021] [notice] Child 16708: Starting 64 worker threads.
+[Tue May 11 23:32:23 2021] [notice] Child 16708: Starting thread to listen on port 80.
+[Tue May 11 23:32:32 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_fetch_array() in C:\\wamp\\www\\index.php on line 53
+[Tue May 11 23:32:34 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_fetch_array() in C:\\wamp\\www\\index.php on line 53
+[Tue May 11 23:34:00 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_fetch_array() in C:\\wamp\\www\\index.php on line 53
+[Tue May 11 23:34:02 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_fetch_array() in C:\\wamp\\www\\index.php on line 53
+[Tue May 11 23:34:07 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_fetch_array() in C:\\wamp\\www\\index.php on line 53
+[Tue May 11 23:34:10 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_fetch_array() in C:\\wamp\\www\\index.php on line 53
+[Tue May 11 23:36:24 2021] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function sqlsrv_fetch_array() in C:\\wamp\\www\\index.php on line 53
+[Tue May 11 23:44:15 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: array in C:\\wamp\\www\\index.php on line 59
+[Tue May 11 23:50:41 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined property: stdClass::$EmployerFilingBaseID in C:\\wamp\\www\\index.php on line 56
+[Tue May 11 23:50:41 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined property: stdClass::$EmployerFilingBaseID in C:\\wamp\\www\\index.php on line 56
+[Tue May 11 23:50:41 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined property: stdClass::$EmployerFilingBaseID in C:\\wamp\\www\\index.php on line 56
+[Tue May 11 23:50:41 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined property: stdClass::$EmployerFilingBaseID in C:\\wamp\\www\\index.php on line 56
+[Wed May 12 00:01:36 2021] [error] [client 127.0.0.1] PHP Parse error:  parse error in C:\\wamp\\www\\index.php on line 265
+[Wed May 12 00:02:40 2021] [error] [client 127.0.0.1] PHP Notice:  Trying to get property of non-object in C:\\wamp\\www\\index.php on line 116
+[Wed May 12 00:02:40 2021] [error] [client 127.0.0.1] PHP Notice:  Trying to get property of non-object in C:\\wamp\\www\\index.php on line 116
+[Wed May 12 00:02:40 2021] [error] [client 127.0.0.1] PHP Notice:  Trying to get property of non-object in C:\\wamp\\www\\index.php on line 116
+[Wed May 12 00:02:40 2021] [error] [client 127.0.0.1] PHP Notice:  Trying to get property of non-object in C:\\wamp\\www\\index.php on line 116
+[Wed May 12 00:10:05 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_FirstName in C:\\wamp\\www\\index.php on line 29, referer: http://localhost/
+[Wed May 12 00:10:05 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_LastName in C:\\wamp\\www\\index.php on line 30, referer: http://localhost/
+[Wed May 12 00:10:05 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: IndividualSSN in C:\\wamp\\www\\index.php on line 31, referer: http://localhost/
+[Wed May 12 00:10:05 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L3_StreetAddress in C:\\wamp\\www\\index.php on line 32, referer: http://localhost/
+[Wed May 12 00:10:05 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L4_City in C:\\wamp\\www\\index.php on line 33, referer: http://localhost/
+[Wed May 12 00:10:05 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L5_State in C:\\wamp\\www\\index.php on line 34, referer: http://localhost/
+[Wed May 12 00:10:05 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L6_ZipCode in C:\\wamp\\www\\index.php on line 35, referer: http://localhost/
+[Wed May 12 00:10:05 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L1_EmployeeName in C:\\wamp\\www\\index.php on line 36, referer: http://localhost/
+[Wed May 12 00:10:05 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: EmpID in C:\\wamp\\www\\index.php on line 37, referer: http://localhost/
+[Wed May 12 00:17:43 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK__YEEmploy__1C416DDEBA50691A'. Cannot insert duplicate key in object 'dbo.YEEmployerBaseFiled'. The duplicate key value is ()., SQL state 23000 in SQLExecDirect in C:\\wamp\\www\\index.php on line 24, referer: http://localhost/
+[Wed May 12 00:18:39 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK__YEEmploy__1C416DDEBA50691A'. Cannot insert duplicate key in object 'dbo.YEEmployerBaseFiled'. The duplicate key value is ()., SQL state 23000 in SQLExecDirect in C:\\wamp\\www\\index.php on line 24, referer: http://localhost/
+[Wed May 12 00:20:11 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK__YEEmploy__1C416DDEBA50691A'. Cannot insert duplicate key in object 'dbo.YEEmployerBaseFiled'. The duplicate key value is ()., SQL state 23000 in SQLExecDirect in C:\\wamp\\www\\index.php on line 24, referer: http://localhost/
+[Wed May 12 00:20:56 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK__YEEmploy__1C416DDEBA50691A'. Cannot insert duplicate key in object 'dbo.YEEmployerBaseFiled'. The duplicate key value is ()., SQL state 23000 in SQLExecDirect in C:\\wamp\\www\\index.php on line 24, referer: http://localhost/
+[Wed May 12 00:47:55 2021] [warn] pid file C:/wamp/bin/apache/Apache2.2.11/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20100525\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20121212\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_56_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Wed May 12 00:47:55 2021] [notice] Apache/2.2.11 (Win32) PHP/5.3.0 configured -- resuming normal operations
+[Wed May 12 00:47:55 2021] [notice] Server built: Dec 10 2008 00:10:06
+[Wed May 12 00:47:55 2021] [notice] Parent: Created child process 6588
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_mssql.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_53_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with build ID=API20090626,TS,VC9\nPHP    compiled with build ID=API20090626,TS,VC6\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with build ID=API20090626,TS,VC9
+PHP    compiled with build ID=API20090626,TS,VC6
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_54_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20100525\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with module API=20100525
+PHP    compiled with module API=20090626
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_55_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20121212\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20090626
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: pdo_sqlsrv: Unable to initialize module\nModule compiled with module API=20131226\nPHP    compiled with module API=20090626\nThese options need to match\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: pdo_sqlsrv: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in <b>Unknown</b> on line <b>0</b><br />
+PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_56_nts.dll' - The specified module could not be found.\r\n in Unknown on line 0
+<br />
+<b>Warning</b>:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.3.0/ext/php_pdo_sqlsrv_56_nts.dll' - The specified module could not be found.
+ in <b>Unknown</b> on line <b>0</b><br />
+[Wed May 12 00:47:55 2021] [notice] Child 6588: Child process is running
+[Wed May 12 00:47:55 2021] [notice] Child 6588: Acquired the start mutex.
+[Wed May 12 00:47:55 2021] [notice] Child 6588: Starting 64 worker threads.
+[Wed May 12 00:47:55 2021] [notice] Child 6588: Starting thread to listen on port 80.
+[Wed May 12 09:15:06 2021] [error] [client 127.0.0.1] File does not exist: C:/wamp/www/favicon.ico, referer: http://localhost/
+[Wed May 12 19:44:53 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]String or binary data would be truncated in table 'rawtest2.dbo.YE1095Head', column 'EmployerFilingBaseId'. Truncated value: 'Select Empl'., SQL state 37000 in SQLExecDirect in C:\\wamp\\www\\Form1094C.php on line 48, referer: http://localhost/Form1094C.php
+[Wed May 12 19:45:17 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: REName in C:\\wamp\\www\\Form1094C.php on line 7, referer: http://localhost/Form1094C.php
+[Wed May 12 19:45:17 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RSAddress in C:\\wamp\\www\\Form1094C.php on line 8, referer: http://localhost/Form1094C.php
+[Wed May 12 19:45:17 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RCity in C:\\wamp\\www\\Form1094C.php on line 9, referer: http://localhost/Form1094C.php
+[Wed May 12 19:45:17 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RContactPhone in C:\\wamp\\www\\Form1094C.php on line 10, referer: http://localhost/Form1094C.php
+[Wed May 12 19:45:17 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RState in C:\\wamp\\www\\Form1094C.php on line 11, referer: http://localhost/Form1094C.php
+[Wed May 12 19:45:17 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RGZipCode in C:\\wamp\\www\\Form1094C.php on line 12, referer: http://localhost/Form1094C.php
+[Wed May 12 19:45:17 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: EmployerFilingBaseId in C:\\wamp\\www\\Form1094C.php on line 13, referer: http://localhost/Form1094C.php
+[Wed May 12 19:45:17 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK__YEEmploy__1C416DDEBA50691A'. Cannot insert duplicate key in object 'dbo.YEEmployerBaseFiled'. The duplicate key value is ()., SQL state 23000 in SQLExecDirect in C:\\wamp\\www\\Form1094C.php on line 25, referer: http://localhost/Form1094C.php
+[Wed May 12 20:45:39 2021] [error] [client 127.0.0.1] PHP Parse error:  parse error in C:\\wamp\\www\\Form1095C.php on line 67, referer: http://localhost/index.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Jan in C:\\wamp\\www\\Form1095C.php on line 39, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Feb in C:\\wamp\\www\\Form1095C.php on line 40, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Mar in C:\\wamp\\www\\Form1095C.php on line 41, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Apr in C:\\wamp\\www\\Form1095C.php on line 42, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_May in C:\\wamp\\www\\Form1095C.php on line 43, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Jun in C:\\wamp\\www\\Form1095C.php on line 44, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Jul in C:\\wamp\\www\\Form1095C.php on line 45, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Aug in C:\\wamp\\www\\Form1095C.php on line 46, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Sep in C:\\wamp\\www\\Form1095C.php on line 47, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Oct in C:\\wamp\\www\\Form1095C.php on line 48, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Nov in C:\\wamp\\www\\Form1095C.php on line 49, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Dec in C:\\wamp\\www\\Form1095C.php on line 50, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 63, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:46:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Jan in C:\\wamp\\www\\Form1095C.php on line 39, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Feb in C:\\wamp\\www\\Form1095C.php on line 40, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Mar in C:\\wamp\\www\\Form1095C.php on line 41, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Apr in C:\\wamp\\www\\Form1095C.php on line 42, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_May in C:\\wamp\\www\\Form1095C.php on line 43, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Jun in C:\\wamp\\www\\Form1095C.php on line 44, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Jul in C:\\wamp\\www\\Form1095C.php on line 45, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Aug in C:\\wamp\\www\\Form1095C.php on line 46, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Sep in C:\\wamp\\www\\Form1095C.php on line 47, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Oct in C:\\wamp\\www\\Form1095C.php on line 48, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Nov in C:\\wamp\\www\\Form1095C.php on line 49, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Dec in C:\\wamp\\www\\Form1095C.php on line 50, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 63, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:50:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Jan in C:\\wamp\\www\\Form1095C.php on line 39, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Feb in C:\\wamp\\www\\Form1095C.php on line 40, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Mar in C:\\wamp\\www\\Form1095C.php on line 41, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Apr in C:\\wamp\\www\\Form1095C.php on line 42, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_May in C:\\wamp\\www\\Form1095C.php on line 43, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Jun in C:\\wamp\\www\\Form1095C.php on line 44, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Jul in C:\\wamp\\www\\Form1095C.php on line 45, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Aug in C:\\wamp\\www\\Form1095C.php on line 46, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Sep in C:\\wamp\\www\\Form1095C.php on line 47, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Oct in C:\\wamp\\www\\Form1095C.php on line 48, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Nov in C:\\wamp\\www\\Form1095C.php on line 49, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L14_Dec in C:\\wamp\\www\\Form1095C.php on line 50, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 63, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:52:18 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:53:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 63, referer: http://localhost/Form1095C.php
+[Wed May 12 20:53:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:53:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:53:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:53:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:53:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:53:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:53:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:53:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:53:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:53:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:53:32 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:54:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 63, referer: http://localhost/Form1095C.php
+[Wed May 12 20:54:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:54:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:54:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:54:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:54:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:54:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:54:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:54:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:54:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:54:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:54:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:55:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 63, referer: http://localhost/Form1095C.php
+[Wed May 12 20:55:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:55:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:55:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:55:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:55:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:55:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:55:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:55:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:55:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:55:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:55:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: info in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 20:56:55 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'L14_Feb, [L14_Mar'., SQL state S0022 in SQLExecDirect in C:\\wamp\\www\\Form1095C.php on line 65, referer: http://localhost/Form1095C.php
+[Wed May 12 20:58:17 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'L14_Feb, [L14_Mar'., SQL state S0022 in SQLExecDirect in C:\\wamp\\www\\Form1095C.php on line 65, referer: http://localhost/Form1095C.php
+[Wed May 12 21:07:46 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L15_Jan in C:\\wamp\\www\\Form1095C.php on line 51, referer: http://localhost/Form1095C.php
+[Wed May 12 21:07:46 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L15_Feb in C:\\wamp\\www\\Form1095C.php on line 52, referer: http://localhost/Form1095C.php
+[Wed May 12 21:07:46 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L15_Mar in C:\\wamp\\www\\Form1095C.php on line 53, referer: http://localhost/Form1095C.php
+[Wed May 12 21:07:46 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L15_Apr in C:\\wamp\\www\\Form1095C.php on line 54, referer: http://localhost/Form1095C.php
+[Wed May 12 21:07:46 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L15_May in C:\\wamp\\www\\Form1095C.php on line 55, referer: http://localhost/Form1095C.php
+[Wed May 12 21:07:46 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L15_Jun in C:\\wamp\\www\\Form1095C.php on line 56, referer: http://localhost/Form1095C.php
+[Wed May 12 21:07:46 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L15_Jul in C:\\wamp\\www\\Form1095C.php on line 57, referer: http://localhost/Form1095C.php
+[Wed May 12 21:07:46 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L15_Aug in C:\\wamp\\www\\Form1095C.php on line 58, referer: http://localhost/Form1095C.php
+[Wed May 12 21:07:46 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L15_Sep in C:\\wamp\\www\\Form1095C.php on line 59, referer: http://localhost/Form1095C.php
+[Wed May 12 21:07:46 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L15_Oct in C:\\wamp\\www\\Form1095C.php on line 60, referer: http://localhost/Form1095C.php
+[Wed May 12 21:07:46 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L15_Nov in C:\\wamp\\www\\Form1095C.php on line 61, referer: http://localhost/Form1095C.php
+[Wed May 12 21:07:46 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L15_Dec in C:\\wamp\\www\\Form1095C.php on line 62, referer: http://localhost/Form1095C.php
+[Wed May 12 21:07:46 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_Head1095'. Cannot insert duplicate key in object 'dbo.YE1095Head'. The duplicate key value is (002, 006)., SQL state 23000 in SQLExecDirect in C:\\wamp\\www\\Form1095C.php on line 79, referer: http://localhost/Form1095C.php
+[Wed May 12 21:11:22 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_Head1095'. Cannot insert duplicate key in object 'dbo.YE1095Head'. The duplicate key value is (001, 008)., SQL state 23000 in SQLExecDirect in C:\\wamp\\www\\Form1095C.php on line 79, referer: http://localhost/Form1095C.php
+[Wed May 12 21:23:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Jan in C:\\wamp\\www\\Form1095C.php on line 63, referer: http://localhost/Form1095C.php
+[Wed May 12 21:23:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Feb in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 21:23:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Mar in C:\\wamp\\www\\Form1095C.php on line 65, referer: http://localhost/Form1095C.php
+[Wed May 12 21:23:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Apr in C:\\wamp\\www\\Form1095C.php on line 66, referer: http://localhost/Form1095C.php
+[Wed May 12 21:23:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_May in C:\\wamp\\www\\Form1095C.php on line 67, referer: http://localhost/Form1095C.php
+[Wed May 12 21:23:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Jun in C:\\wamp\\www\\Form1095C.php on line 68, referer: http://localhost/Form1095C.php
+[Wed May 12 21:23:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Jul in C:\\wamp\\www\\Form1095C.php on line 69, referer: http://localhost/Form1095C.php
+[Wed May 12 21:23:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Aug in C:\\wamp\\www\\Form1095C.php on line 70, referer: http://localhost/Form1095C.php
+[Wed May 12 21:23:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Sep in C:\\wamp\\www\\Form1095C.php on line 71, referer: http://localhost/Form1095C.php
+[Wed May 12 21:23:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Oct in C:\\wamp\\www\\Form1095C.php on line 72, referer: http://localhost/Form1095C.php
+[Wed May 12 21:23:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Nov in C:\\wamp\\www\\Form1095C.php on line 73, referer: http://localhost/Form1095C.php
+[Wed May 12 21:23:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Dec in C:\\wamp\\www\\Form1095C.php on line 74, referer: http://localhost/Form1095C.php
+[Wed May 12 21:29:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Jan in C:\\wamp\\www\\Form1095C.php on line 63, referer: http://localhost/Form1095C.php
+[Wed May 12 21:29:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Feb in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 21:29:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Mar in C:\\wamp\\www\\Form1095C.php on line 65, referer: http://localhost/Form1095C.php
+[Wed May 12 21:29:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Apr in C:\\wamp\\www\\Form1095C.php on line 66, referer: http://localhost/Form1095C.php
+[Wed May 12 21:29:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_May in C:\\wamp\\www\\Form1095C.php on line 67, referer: http://localhost/Form1095C.php
+[Wed May 12 21:29:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Jun in C:\\wamp\\www\\Form1095C.php on line 68, referer: http://localhost/Form1095C.php
+[Wed May 12 21:29:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Jul in C:\\wamp\\www\\Form1095C.php on line 69, referer: http://localhost/Form1095C.php
+[Wed May 12 21:29:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Aug in C:\\wamp\\www\\Form1095C.php on line 70, referer: http://localhost/Form1095C.php
+[Wed May 12 21:29:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Sep in C:\\wamp\\www\\Form1095C.php on line 71, referer: http://localhost/Form1095C.php
+[Wed May 12 21:29:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Oct in C:\\wamp\\www\\Form1095C.php on line 72, referer: http://localhost/Form1095C.php
+[Wed May 12 21:29:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Nov in C:\\wamp\\www\\Form1095C.php on line 73, referer: http://localhost/Form1095C.php
+[Wed May 12 21:29:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Dec in C:\\wamp\\www\\Form1095C.php on line 74, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:41 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Jan in C:\\wamp\\www\\Form1095C.php on line 63, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:41 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Feb in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:41 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Mar in C:\\wamp\\www\\Form1095C.php on line 65, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:41 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Apr in C:\\wamp\\www\\Form1095C.php on line 66, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:41 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_May in C:\\wamp\\www\\Form1095C.php on line 67, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:41 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Jun in C:\\wamp\\www\\Form1095C.php on line 68, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:41 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Jul in C:\\wamp\\www\\Form1095C.php on line 69, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:41 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Aug in C:\\wamp\\www\\Form1095C.php on line 70, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:41 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Sep in C:\\wamp\\www\\Form1095C.php on line 71, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:41 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Oct in C:\\wamp\\www\\Form1095C.php on line 72, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:41 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Nov in C:\\wamp\\www\\Form1095C.php on line 73, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:41 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Dec in C:\\wamp\\www\\Form1095C.php on line 74, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Jan in C:\\wamp\\www\\Form1095C.php on line 63, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Feb in C:\\wamp\\www\\Form1095C.php on line 64, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Mar in C:\\wamp\\www\\Form1095C.php on line 65, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Apr in C:\\wamp\\www\\Form1095C.php on line 66, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_May in C:\\wamp\\www\\Form1095C.php on line 67, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Jun in C:\\wamp\\www\\Form1095C.php on line 68, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Jul in C:\\wamp\\www\\Form1095C.php on line 69, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Aug in C:\\wamp\\www\\Form1095C.php on line 70, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Sep in C:\\wamp\\www\\Form1095C.php on line 71, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Oct in C:\\wamp\\www\\Form1095C.php on line 72, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Nov in C:\\wamp\\www\\Form1095C.php on line 73, referer: http://localhost/Form1095C.php
+[Wed May 12 21:33:44 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L16_Dec in C:\\wamp\\www\\Form1095C.php on line 74, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Jan in C:\\wamp\\www\\Form1095C.php on line 75, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Feb in C:\\wamp\\www\\Form1095C.php on line 76, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Mar in C:\\wamp\\www\\Form1095C.php on line 77, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Apr in C:\\wamp\\www\\Form1095C.php on line 78, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_May in C:\\wamp\\www\\Form1095C.php on line 79, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Jun in C:\\wamp\\www\\Form1095C.php on line 80, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Jul in C:\\wamp\\www\\Form1095C.php on line 81, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Aug in C:\\wamp\\www\\Form1095C.php on line 82, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Sep in C:\\wamp\\www\\Form1095C.php on line 83, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Oct in C:\\wamp\\www\\Form1095C.php on line 84, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Nov in C:\\wamp\\www\\Form1095C.php on line 85, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Dec in C:\\wamp\\www\\Form1095C.php on line 86, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:19 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]String or binary data would be truncated in table 'rawtest2.dbo.YE1095Head', column 'EmployerFilingBaseId'. Truncated value: 'Select Empl'., SQL state 37000 in SQLExecDirect in C:\\wamp\\www\\Form1095C.php on line 107, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:23 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Jan in C:\\wamp\\www\\Form1095C.php on line 75, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:23 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Feb in C:\\wamp\\www\\Form1095C.php on line 76, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:23 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Mar in C:\\wamp\\www\\Form1095C.php on line 77, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:23 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Apr in C:\\wamp\\www\\Form1095C.php on line 78, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:23 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_May in C:\\wamp\\www\\Form1095C.php on line 79, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:23 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Jun in C:\\wamp\\www\\Form1095C.php on line 80, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:23 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Jul in C:\\wamp\\www\\Form1095C.php on line 81, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:23 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Aug in C:\\wamp\\www\\Form1095C.php on line 82, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:23 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Sep in C:\\wamp\\www\\Form1095C.php on line 83, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:23 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Oct in C:\\wamp\\www\\Form1095C.php on line 84, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:23 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Nov in C:\\wamp\\www\\Form1095C.php on line 85, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:23 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: L17_Dec in C:\\wamp\\www\\Form1095C.php on line 86, referer: http://localhost/Form1095C.php
+[Wed May 12 21:41:23 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]String or binary data would be truncated in table 'rawtest2.dbo.YE1095Head', column 'EmployerFilingBaseId'. Truncated value: 'Select Empl'., SQL state 37000 in SQLExecDirect in C:\\wamp\\www\\Form1095C.php on line 107, referer: http://localhost/Form1095C.php
+[Wed May 12 21:57:20 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_Head1095'. Cannot insert duplicate key in object 'dbo.YE1095Head'. The duplicate key value is (002, 010)., SQL state 23000 in SQLExecDirect in C:\\wamp\\www\\Form1095C.php on line 113, referer: http://localhost/Form1095C.php
+[Wed May 12 22:06:26 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_Head1095'. Cannot insert duplicate key in object 'dbo.YE1095Head'. The duplicate key value is (002, 010)., SQL state 23000 in SQLExecDirect in C:\\wamp\\www\\Form1095C.php on line 113, referer: http://localhost/Form1095C.php
+[Wed May 12 22:06:40 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_Head1095'. Cannot insert duplicate key in object 'dbo.YE1095Head'. The duplicate key value is (002, 010)., SQL state 23000 in SQLExecDirect in C:\\wamp\\www\\Form1095C.php on line 113, referer: http://localhost/Form1095C.php
+[Wed May 12 22:06:48 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_Head1095'. Cannot insert duplicate key in object 'dbo.YE1095Head'. The duplicate key value is (002, 010)., SQL state 23000 in SQLExecDirect in C:\\wamp\\www\\Form1095C.php on line 113, referer: http://localhost/Form1095C.php
+[Wed May 12 22:14:58 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_Head1095'. Cannot insert duplicate key in object 'dbo.YE1095Head'. The duplicate key value is (002, 010)., SQL state 23000 in SQLExecDirect in C:\\wamp\\www\\Form1095C.php on line 113, referer: http://localhost/Form1095C.php
+[Wed May 12 22:17:55 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Conversion failed when converting the varchar value 'on' to data type bit., SQL state 22005 in SQLExecDirect in C:\\wamp\\www\\Form1095C.php on line 158, referer: http://localhost/Form1095C.php
+[Wed May 12 22:19:35 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]Conversion failed when converting the varchar value 'on' to data type bit., SQL state 22005 in SQLExecDirect in C:\\wamp\\www\\Form1095C.php on line 158, referer: http://localhost/Form1095C.php
+[Wed May 12 22:25:27 2021] [error] [client 127.0.0.1] PHP Parse error:  parse error in C:\\wamp\\www\\Form1095C.php on line 160, referer: http://localhost/Form1095C.php
+[Wed May 12 22:26:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jan in C:\\wamp\\www\\Form1095C.php on line 133, referer: http://localhost/Form1095C.php
+[Wed May 12 22:26:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Mar in C:\\wamp\\www\\Form1095C.php on line 135, referer: http://localhost/Form1095C.php
+[Wed May 12 22:26:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr in C:\\wamp\\www\\Form1095C.php on line 136, referer: http://localhost/Form1095C.php
+[Wed May 12 22:26:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jun in C:\\wamp\\www\\Form1095C.php on line 138, referer: http://localhost/Form1095C.php
+[Wed May 12 22:26:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug in C:\\wamp\\www\\Form1095C.php on line 140, referer: http://localhost/Form1095C.php
+[Wed May 12 22:26:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Sep in C:\\wamp\\www\\Form1095C.php on line 141, referer: http://localhost/Form1095C.php
+[Wed May 12 22:26:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct in C:\\wamp\\www\\Form1095C.php on line 142, referer: http://localhost/Form1095C.php
+[Wed May 12 22:26:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Nov in C:\\wamp\\www\\Form1095C.php on line 143, referer: http://localhost/Form1095C.php
+[Wed May 12 22:26:03 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Dec in C:\\wamp\\www\\Form1095C.php on line 144, referer: http://localhost/Form1095C.php
+[Wed May 12 22:29:58 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jan in C:\\wamp\\www\\Form1095C.php on line 133, referer: http://localhost/Form1095C.php
+[Wed May 12 22:29:58 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Mar in C:\\wamp\\www\\Form1095C.php on line 135, referer: http://localhost/Form1095C.php
+[Wed May 12 22:29:58 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr in C:\\wamp\\www\\Form1095C.php on line 136, referer: http://localhost/Form1095C.php
+[Wed May 12 22:29:58 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jun in C:\\wamp\\www\\Form1095C.php on line 138, referer: http://localhost/Form1095C.php
+[Wed May 12 22:29:58 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug in C:\\wamp\\www\\Form1095C.php on line 140, referer: http://localhost/Form1095C.php
+[Wed May 12 22:29:58 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Sep in C:\\wamp\\www\\Form1095C.php on line 141, referer: http://localhost/Form1095C.php
+[Wed May 12 22:29:58 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct in C:\\wamp\\www\\Form1095C.php on line 142, referer: http://localhost/Form1095C.php
+[Wed May 12 22:29:58 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Nov in C:\\wamp\\www\\Form1095C.php on line 143, referer: http://localhost/Form1095C.php
+[Wed May 12 22:29:58 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Dec in C:\\wamp\\www\\Form1095C.php on line 144, referer: http://localhost/Form1095C.php
+[Wed May 12 22:30:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jan in C:\\wamp\\www\\Form1095C.php on line 133, referer: http://localhost/Form1095C.php
+[Wed May 12 22:30:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Feb in C:\\wamp\\www\\Form1095C.php on line 134, referer: http://localhost/Form1095C.php
+[Wed May 12 22:30:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Mar in C:\\wamp\\www\\Form1095C.php on line 135, referer: http://localhost/Form1095C.php
+[Wed May 12 22:30:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr in C:\\wamp\\www\\Form1095C.php on line 136, referer: http://localhost/Form1095C.php
+[Wed May 12 22:30:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: May in C:\\wamp\\www\\Form1095C.php on line 137, referer: http://localhost/Form1095C.php
+[Wed May 12 22:30:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jun in C:\\wamp\\www\\Form1095C.php on line 138, referer: http://localhost/Form1095C.php
+[Wed May 12 22:30:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jul in C:\\wamp\\www\\Form1095C.php on line 139, referer: http://localhost/Form1095C.php
+[Wed May 12 22:30:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug in C:\\wamp\\www\\Form1095C.php on line 140, referer: http://localhost/Form1095C.php
+[Wed May 12 22:30:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Sep in C:\\wamp\\www\\Form1095C.php on line 141, referer: http://localhost/Form1095C.php
+[Wed May 12 22:30:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct in C:\\wamp\\www\\Form1095C.php on line 142, referer: http://localhost/Form1095C.php
+[Wed May 12 22:30:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Nov in C:\\wamp\\www\\Form1095C.php on line 143, referer: http://localhost/Form1095C.php
+[Wed May 12 22:30:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Dec in C:\\wamp\\www\\Form1095C.php on line 144, referer: http://localhost/Form1095C.php
+[Wed May 12 22:32:05 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Deb in C:\\wamp\\www\\Form1095C.php on line 144, referer: http://localhost/Form1095C.php
+[Wed May 12 22:32:54 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Feb in C:\\wamp\\www\\Form1095C.php on line 134, referer: http://localhost/Form1095C.php
+[Wed May 12 22:32:54 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr in C:\\wamp\\www\\Form1095C.php on line 136, referer: http://localhost/Form1095C.php
+[Wed May 12 22:32:54 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jul in C:\\wamp\\www\\Form1095C.php on line 139, referer: http://localhost/Form1095C.php
+[Wed May 12 22:32:54 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Sep in C:\\wamp\\www\\Form1095C.php on line 141, referer: http://localhost/Form1095C.php
+[Wed May 12 22:32:54 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct in C:\\wamp\\www\\Form1095C.php on line 142, referer: http://localhost/Form1095C.php
+[Wed May 12 22:39:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: CoveredLName in C:\\wamp\\www\\Form1095C.php on line 129, referer: http://localhost/Form1095C.php
+[Wed May 12 22:39:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jan in C:\\wamp\\www\\Form1095C.php on line 133, referer: http://localhost/Form1095C.php
+[Wed May 12 22:39:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Feb in C:\\wamp\\www\\Form1095C.php on line 134, referer: http://localhost/Form1095C.php
+[Wed May 12 22:39:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr in C:\\wamp\\www\\Form1095C.php on line 136, referer: http://localhost/Form1095C.php
+[Wed May 12 22:39:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: May in C:\\wamp\\www\\Form1095C.php on line 137, referer: http://localhost/Form1095C.php
+[Wed May 12 22:39:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jul in C:\\wamp\\www\\Form1095C.php on line 139, referer: http://localhost/Form1095C.php
+[Wed May 12 22:39:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug in C:\\wamp\\www\\Form1095C.php on line 140, referer: http://localhost/Form1095C.php
+[Wed May 12 22:39:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct in C:\\wamp\\www\\Form1095C.php on line 142, referer: http://localhost/Form1095C.php
+[Wed May 12 22:39:07 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Nov in C:\\wamp\\www\\Form1095C.php on line 143, referer: http://localhost/Form1095C.php
+[Wed May 12 22:40:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: CoveredAll in C:\\wamp\\www\\Form1095C.php on line 132, referer: http://localhost/Form1095C.php
+[Wed May 12 22:40:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jan in C:\\wamp\\www\\Form1095C.php on line 133, referer: http://localhost/Form1095C.php
+[Wed May 12 22:40:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Feb in C:\\wamp\\www\\Form1095C.php on line 134, referer: http://localhost/Form1095C.php
+[Wed May 12 22:40:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Mar in C:\\wamp\\www\\Form1095C.php on line 135, referer: http://localhost/Form1095C.php
+[Wed May 12 22:40:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr in C:\\wamp\\www\\Form1095C.php on line 136, referer: http://localhost/Form1095C.php
+[Wed May 12 22:40:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: May in C:\\wamp\\www\\Form1095C.php on line 137, referer: http://localhost/Form1095C.php
+[Wed May 12 22:40:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jun in C:\\wamp\\www\\Form1095C.php on line 138, referer: http://localhost/Form1095C.php
+[Wed May 12 22:40:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jul in C:\\wamp\\www\\Form1095C.php on line 139, referer: http://localhost/Form1095C.php
+[Wed May 12 22:40:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug in C:\\wamp\\www\\Form1095C.php on line 140, referer: http://localhost/Form1095C.php
+[Wed May 12 22:40:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Sep in C:\\wamp\\www\\Form1095C.php on line 141, referer: http://localhost/Form1095C.php
+[Wed May 12 22:40:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct in C:\\wamp\\www\\Form1095C.php on line 142, referer: http://localhost/Form1095C.php
+[Wed May 12 22:40:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Nov in C:\\wamp\\www\\Form1095C.php on line 143, referer: http://localhost/Form1095C.php
+[Wed May 12 22:40:27 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Dec in C:\\wamp\\www\\Form1095C.php on line 144, referer: http://localhost/Form1095C.php
+[Wed May 12 22:42:40 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: CoveredAll in C:\\wamp\\www\\Form1095C.php on line 132, referer: http://localhost/Form1095C.php
+[Wed May 12 22:42:40 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jan in C:\\wamp\\www\\Form1095C.php on line 133, referer: http://localhost/Form1095C.php
+[Wed May 12 22:42:40 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Feb in C:\\wamp\\www\\Form1095C.php on line 134, referer: http://localhost/Form1095C.php
+[Wed May 12 22:42:40 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Mar in C:\\wamp\\www\\Form1095C.php on line 135, referer: http://localhost/Form1095C.php
+[Wed May 12 22:42:40 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr in C:\\wamp\\www\\Form1095C.php on line 136, referer: http://localhost/Form1095C.php
+[Wed May 12 22:42:40 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: May in C:\\wamp\\www\\Form1095C.php on line 137, referer: http://localhost/Form1095C.php
+[Wed May 12 22:42:40 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jun in C:\\wamp\\www\\Form1095C.php on line 138, referer: http://localhost/Form1095C.php
+[Wed May 12 22:42:40 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jul in C:\\wamp\\www\\Form1095C.php on line 139, referer: http://localhost/Form1095C.php
+[Wed May 12 22:42:40 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug in C:\\wamp\\www\\Form1095C.php on line 140, referer: http://localhost/Form1095C.php
+[Wed May 12 22:42:40 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Sep in C:\\wamp\\www\\Form1095C.php on line 141, referer: http://localhost/Form1095C.php
+[Wed May 12 22:42:40 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct in C:\\wamp\\www\\Form1095C.php on line 142, referer: http://localhost/Form1095C.php
+[Wed May 12 22:42:40 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Nov in C:\\wamp\\www\\Form1095C.php on line 143, referer: http://localhost/Form1095C.php
+[Wed May 12 22:42:40 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Dec in C:\\wamp\\www\\Form1095C.php on line 144, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:01 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: CoveredAll in C:\\wamp\\www\\Form1095C.php on line 132, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:01 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jan in C:\\wamp\\www\\Form1095C.php on line 133, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:01 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Feb in C:\\wamp\\www\\Form1095C.php on line 134, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:01 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Mar in C:\\wamp\\www\\Form1095C.php on line 135, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:01 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr in C:\\wamp\\www\\Form1095C.php on line 136, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:01 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: May in C:\\wamp\\www\\Form1095C.php on line 137, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:01 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jun in C:\\wamp\\www\\Form1095C.php on line 138, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:01 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jul in C:\\wamp\\www\\Form1095C.php on line 139, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:01 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug in C:\\wamp\\www\\Form1095C.php on line 140, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:01 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Sep in C:\\wamp\\www\\Form1095C.php on line 141, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:01 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct in C:\\wamp\\www\\Form1095C.php on line 142, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:01 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Nov in C:\\wamp\\www\\Form1095C.php on line 143, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:01 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Dec in C:\\wamp\\www\\Form1095C.php on line 144, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:09 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: CoveredAll in C:\\wamp\\www\\Form1095C.php on line 132, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:09 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jan in C:\\wamp\\www\\Form1095C.php on line 133, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:09 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Feb in C:\\wamp\\www\\Form1095C.php on line 134, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:09 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Mar in C:\\wamp\\www\\Form1095C.php on line 135, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:09 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr in C:\\wamp\\www\\Form1095C.php on line 136, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:09 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: May in C:\\wamp\\www\\Form1095C.php on line 137, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:09 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jun in C:\\wamp\\www\\Form1095C.php on line 138, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:09 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jul in C:\\wamp\\www\\Form1095C.php on line 139, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:09 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug in C:\\wamp\\www\\Form1095C.php on line 140, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:09 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Sep in C:\\wamp\\www\\Form1095C.php on line 141, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:09 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct in C:\\wamp\\www\\Form1095C.php on line 142, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:09 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Nov in C:\\wamp\\www\\Form1095C.php on line 143, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:09 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Dec in C:\\wamp\\www\\Form1095C.php on line 144, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:28 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: CoveredAll in C:\\wamp\\www\\Form1095C.php on line 132, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:28 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jan in C:\\wamp\\www\\Form1095C.php on line 133, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:28 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Feb in C:\\wamp\\www\\Form1095C.php on line 134, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:28 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Mar in C:\\wamp\\www\\Form1095C.php on line 135, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:28 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr in C:\\wamp\\www\\Form1095C.php on line 136, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:28 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: May in C:\\wamp\\www\\Form1095C.php on line 137, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:28 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jun in C:\\wamp\\www\\Form1095C.php on line 138, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:28 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jul in C:\\wamp\\www\\Form1095C.php on line 139, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:28 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug in C:\\wamp\\www\\Form1095C.php on line 140, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:28 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Sep in C:\\wamp\\www\\Form1095C.php on line 141, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:28 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct in C:\\wamp\\www\\Form1095C.php on line 142, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:28 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Nov in C:\\wamp\\www\\Form1095C.php on line 143, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:28 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Dec in C:\\wamp\\www\\Form1095C.php on line 144, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: CoveredAll in C:\\wamp\\www\\Form1095C.php on line 132, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jan in C:\\wamp\\www\\Form1095C.php on line 133, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Feb in C:\\wamp\\www\\Form1095C.php on line 134, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Mar in C:\\wamp\\www\\Form1095C.php on line 135, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr in C:\\wamp\\www\\Form1095C.php on line 136, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: May in C:\\wamp\\www\\Form1095C.php on line 137, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jun in C:\\wamp\\www\\Form1095C.php on line 138, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jul in C:\\wamp\\www\\Form1095C.php on line 139, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug in C:\\wamp\\www\\Form1095C.php on line 140, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Sep in C:\\wamp\\www\\Form1095C.php on line 141, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct in C:\\wamp\\www\\Form1095C.php on line 142, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Nov in C:\\wamp\\www\\Form1095C.php on line 143, referer: http://localhost/Form1095C.php
+[Wed May 12 22:43:39 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Dec in C:\\wamp\\www\\Form1095C.php on line 144, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: CoveredAll in C:\\wamp\\www\\Form1095C.php on line 132, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jan in C:\\wamp\\www\\Form1095C.php on line 133, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Feb in C:\\wamp\\www\\Form1095C.php on line 134, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Mar in C:\\wamp\\www\\Form1095C.php on line 135, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr in C:\\wamp\\www\\Form1095C.php on line 136, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: May in C:\\wamp\\www\\Form1095C.php on line 137, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jun in C:\\wamp\\www\\Form1095C.php on line 138, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jul in C:\\wamp\\www\\Form1095C.php on line 139, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug in C:\\wamp\\www\\Form1095C.php on line 140, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Sep in C:\\wamp\\www\\Form1095C.php on line 141, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct in C:\\wamp\\www\\Form1095C.php on line 142, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Nov in C:\\wamp\\www\\Form1095C.php on line 143, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Dec in C:\\wamp\\www\\Form1095C.php on line 144, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: CoveredAll in C:\\wamp\\www\\Form1095C.php on line 132, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jan in C:\\wamp\\www\\Form1095C.php on line 133, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Feb in C:\\wamp\\www\\Form1095C.php on line 134, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Mar in C:\\wamp\\www\\Form1095C.php on line 135, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr in C:\\wamp\\www\\Form1095C.php on line 136, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: May in C:\\wamp\\www\\Form1095C.php on line 137, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jun in C:\\wamp\\www\\Form1095C.php on line 138, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jul in C:\\wamp\\www\\Form1095C.php on line 139, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug in C:\\wamp\\www\\Form1095C.php on line 140, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Sep in C:\\wamp\\www\\Form1095C.php on line 141, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct in C:\\wamp\\www\\Form1095C.php on line 142, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Nov in C:\\wamp\\www\\Form1095C.php on line 143, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:13 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Dec in C:\\wamp\\www\\Form1095C.php on line 144, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: CoveredAll in C:\\wamp\\www\\Form1095C.php on line 132, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jan in C:\\wamp\\www\\Form1095C.php on line 133, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Feb in C:\\wamp\\www\\Form1095C.php on line 134, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Mar in C:\\wamp\\www\\Form1095C.php on line 135, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr in C:\\wamp\\www\\Form1095C.php on line 136, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: May in C:\\wamp\\www\\Form1095C.php on line 137, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jun in C:\\wamp\\www\\Form1095C.php on line 138, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jul in C:\\wamp\\www\\Form1095C.php on line 139, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug in C:\\wamp\\www\\Form1095C.php on line 140, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Sep in C:\\wamp\\www\\Form1095C.php on line 141, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct in C:\\wamp\\www\\Form1095C.php on line 142, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Nov in C:\\wamp\\www\\Form1095C.php on line 143, referer: http://localhost/Form1095C.php
+[Wed May 12 22:44:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Dec in C:\\wamp\\www\\Form1095C.php on line 144, referer: http://localhost/Form1095C.php
+[Wed May 12 22:52:51 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: CoveredAll in C:\\wamp\\www\\Form1095C.php on line 132, referer: http://localhost/Form1095C.php
+[Wed May 12 22:52:51 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jan in C:\\wamp\\www\\Form1095C.php on line 133, referer: http://localhost/Form1095C.php
+[Wed May 12 22:52:51 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Feb in C:\\wamp\\www\\Form1095C.php on line 134, referer: http://localhost/Form1095C.php
+[Wed May 12 22:52:51 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Mar in C:\\wamp\\www\\Form1095C.php on line 135, referer: http://localhost/Form1095C.php
+[Wed May 12 22:52:51 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr in C:\\wamp\\www\\Form1095C.php on line 136, referer: http://localhost/Form1095C.php
+[Wed May 12 22:52:51 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: May in C:\\wamp\\www\\Form1095C.php on line 137, referer: http://localhost/Form1095C.php
+[Wed May 12 22:52:51 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jun in C:\\wamp\\www\\Form1095C.php on line 138, referer: http://localhost/Form1095C.php
+[Wed May 12 22:52:51 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jul in C:\\wamp\\www\\Form1095C.php on line 139, referer: http://localhost/Form1095C.php
+[Wed May 12 22:52:51 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug in C:\\wamp\\www\\Form1095C.php on line 140, referer: http://localhost/Form1095C.php
+[Wed May 12 22:52:51 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Sep in C:\\wamp\\www\\Form1095C.php on line 141, referer: http://localhost/Form1095C.php
+[Wed May 12 22:52:51 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct in C:\\wamp\\www\\Form1095C.php on line 142, referer: http://localhost/Form1095C.php
+[Wed May 12 22:52:51 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Nov in C:\\wamp\\www\\Form1095C.php on line 143, referer: http://localhost/Form1095C.php
+[Wed May 12 22:52:51 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Dec in C:\\wamp\\www\\Form1095C.php on line 144, referer: http://localhost/Form1095C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: UserId in C:\\wamp\\www\\Form1094C.php on line 7, referer: http://localhost/Form1094C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RSAddress in C:\\wamp\\www\\Form1094C.php on line 8, referer: http://localhost/Form1094C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RCity in C:\\wamp\\www\\Form1094C.php on line 9, referer: http://localhost/Form1094C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RState in C:\\wamp\\www\\Form1094C.php on line 10, referer: http://localhost/Form1094C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RZipCode in C:\\wamp\\www\\Form1094C.php on line 11, referer: http://localhost/Form1094C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RContactName in C:\\wamp\\www\\Form1094C.php on line 12, referer: http://localhost/Form1094C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RContactPhone in C:\\wamp\\www\\Form1094C.php on line 13, referer: http://localhost/Form1094C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RGFEIN in C:\\wamp\\www\\Form1094C.php on line 14, referer: http://localhost/Form1094C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: EmployerFilingBaseId in C:\\wamp\\www\\Form1094C.php on line 15, referer: http://localhost/Form1094C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RGAddress in C:\\wamp\\www\\Form1094C.php on line 16, referer: http://localhost/Form1094C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RGCity in C:\\wamp\\www\\Form1094C.php on line 17, referer: http://localhost/Form1094C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RGState in C:\\wamp\\www\\Form1094C.php on line 18, referer: http://localhost/Form1094C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RGZipCode in C:\\wamp\\www\\Form1094C.php on line 19, referer: http://localhost/Form1094C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RGContactName in C:\\wamp\\www\\Form1094C.php on line 20, referer: http://localhost/Form1094C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RGContactPhone in C:\\wamp\\www\\Form1094C.php on line 21, referer: http://localhost/Form1094C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: NumberForms18 in C:\\wamp\\www\\Form1094C.php on line 22, referer: http://localhost/Form1094C.php
+[Wed May 12 23:48:02 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AuthTrans19 in C:\\wamp\\www\\Form1094C.php on line 23, referer: http://localhost/Form1094C.php
+[Thu May 13 00:08:54 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: ALENumberForms20 in C:\\wamp\\www\\Form1094C.php on line 24, referer: http://localhost/Form1094C.php
+[Thu May 13 00:08:54 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: ALEGroup21 in C:\\wamp\\www\\Form1094C.php on line 25, referer: http://localhost/Form1094C.php
+[Thu May 13 00:08:54 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: QOfferMethod22A in C:\\wamp\\www\\Form1094C.php on line 26, referer: http://localhost/Form1094C.php
+[Thu May 13 00:08:54 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: QOfferTranRelief22B in C:\\wamp\\www\\Form1094C.php on line 27, referer: http://localhost/Form1094C.php
+[Thu May 13 00:08:54 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Section498022C in C:\\wamp\\www\\Form1094C.php on line 28, referer: http://localhost/Form1094C.php
+[Thu May 13 00:08:54 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Offer98Percent22D in C:\\wamp\\www\\Form1094C.php on line 29, referer: http://localhost/Form1094C.php
+[Thu May 13 00:08:54 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RTitle in C:\\wamp\\www\\Form1094C.php on line 30, referer: http://localhost/Form1094C.php
+[Thu May 13 00:09:10 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: ALENumberForms20 in C:\\wamp\\www\\Form1094C.php on line 24, referer: http://localhost/Form1094C.php
+[Thu May 13 00:09:10 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: ALEGroup21 in C:\\wamp\\www\\Form1094C.php on line 25, referer: http://localhost/Form1094C.php
+[Thu May 13 00:09:10 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: QOfferMethod22A in C:\\wamp\\www\\Form1094C.php on line 26, referer: http://localhost/Form1094C.php
+[Thu May 13 00:09:10 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: QOfferTranRelief22B in C:\\wamp\\www\\Form1094C.php on line 27, referer: http://localhost/Form1094C.php
+[Thu May 13 00:09:10 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Section498022C in C:\\wamp\\www\\Form1094C.php on line 28, referer: http://localhost/Form1094C.php
+[Thu May 13 00:09:10 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Offer98Percent22D in C:\\wamp\\www\\Form1094C.php on line 29, referer: http://localhost/Form1094C.php
+[Thu May 13 00:09:10 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RTitle in C:\\wamp\\www\\Form1094C.php on line 30, referer: http://localhost/Form1094C.php
+[Thu May 13 00:09:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: ALENumberForms20 in C:\\wamp\\www\\Form1094C.php on line 24, referer: http://localhost/Form1094C.php
+[Thu May 13 00:09:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: ALEGroup21 in C:\\wamp\\www\\Form1094C.php on line 25, referer: http://localhost/Form1094C.php
+[Thu May 13 00:09:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: QOfferMethod22A in C:\\wamp\\www\\Form1094C.php on line 26, referer: http://localhost/Form1094C.php
+[Thu May 13 00:09:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: QOfferTranRelief22B in C:\\wamp\\www\\Form1094C.php on line 27, referer: http://localhost/Form1094C.php
+[Thu May 13 00:09:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Section498022C in C:\\wamp\\www\\Form1094C.php on line 28, referer: http://localhost/Form1094C.php
+[Thu May 13 00:09:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Offer98Percent22D in C:\\wamp\\www\\Form1094C.php on line 29, referer: http://localhost/Form1094C.php
+[Thu May 13 00:09:21 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: RTitle in C:\\wamp\\www\\Form1094C.php on line 30, referer: http://localhost/Form1094C.php
+[Thu May 13 00:11:59 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AuthTrans19 in C:\\wamp\\www\\Form1094C.php on line 23, referer: http://localhost/Form1094C.php
+[Thu May 13 00:12:51 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AuthTrans19 in C:\\wamp\\www\\Form1094C.php on line 23, referer: http://localhost/Form1094C.php
+[Thu May 13 00:21:11 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AuthTrans19 in C:\\wamp\\www\\Form1094C.php on line 23, referer: http://localhost/Form1094C.php
+[Thu May 13 00:21:11 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AllEssential in C:\\wamp\\www\\Form1094C.php on line 31, referer: http://localhost/Form1094C.php
+[Thu May 13 00:21:11 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AllFTCount in C:\\wamp\\www\\Form1094C.php on line 32, referer: http://localhost/Form1094C.php
+[Thu May 13 00:21:11 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AllTotalCount in C:\\wamp\\www\\Form1094C.php on line 33, referer: http://localhost/Form1094C.php
+[Thu May 13 00:21:11 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: All4980Indicator in C:\\wamp\\www\\Form1094C.php on line 34, referer: http://localhost/Form1094C.php
+[Thu May 13 00:21:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AuthTrans19 in C:\\wamp\\www\\Form1094C.php on line 23, referer: http://localhost/Form1094C.php
+[Thu May 13 00:21:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AllEssential in C:\\wamp\\www\\Form1094C.php on line 31, referer: http://localhost/Form1094C.php
+[Thu May 13 00:21:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AllFTCount in C:\\wamp\\www\\Form1094C.php on line 32, referer: http://localhost/Form1094C.php
+[Thu May 13 00:21:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AllTotalCount in C:\\wamp\\www\\Form1094C.php on line 33, referer: http://localhost/Form1094C.php
+[Thu May 13 00:21:57 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: All4980Indicator in C:\\wamp\\www\\Form1094C.php on line 34, referer: http://localhost/Form1094C.php
+[Thu May 13 00:22:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AuthTrans19 in C:\\wamp\\www\\Form1094C.php on line 23, referer: http://localhost/Form1094C.php
+[Thu May 13 00:22:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AllEssential in C:\\wamp\\www\\Form1094C.php on line 31, referer: http://localhost/Form1094C.php
+[Thu May 13 00:22:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AllFTCount in C:\\wamp\\www\\Form1094C.php on line 32, referer: http://localhost/Form1094C.php
+[Thu May 13 00:22:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AllTotalCount in C:\\wamp\\www\\Form1094C.php on line 33, referer: http://localhost/Form1094C.php
+[Thu May 13 00:22:29 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: All4980Indicator in C:\\wamp\\www\\Form1094C.php on line 34, referer: http://localhost/Form1094C.php
+[Thu May 13 00:22:43 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AuthTrans19 in C:\\wamp\\www\\Form1094C.php on line 23, referer: http://localhost/Form1094C.php
+[Thu May 13 00:22:43 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: ALEGroup21 in C:\\wamp\\www\\Form1094C.php on line 25, referer: http://localhost/Form1094C.php
+[Thu May 13 00:22:43 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: QOfferMethod22A in C:\\wamp\\www\\Form1094C.php on line 26, referer: http://localhost/Form1094C.php
+[Thu May 13 00:22:43 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: QOfferTranRelief22B in C:\\wamp\\www\\Form1094C.php on line 27, referer: http://localhost/Form1094C.php
+[Thu May 13 00:22:43 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Section498022C in C:\\wamp\\www\\Form1094C.php on line 28, referer: http://localhost/Form1094C.php
+[Thu May 13 00:22:43 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Offer98Percent22D in C:\\wamp\\www\\Form1094C.php on line 29, referer: http://localhost/Form1094C.php
+[Thu May 13 00:45:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AuthTrans19 in C:\\wamp\\www\\Form1094C.php on line 23, referer: http://localhost/Form1094C.php
+[Thu May 13 00:45:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: ALEGroup21 in C:\\wamp\\www\\Form1094C.php on line 25, referer: http://localhost/Form1094C.php
+[Thu May 13 00:45:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: QOfferMethod22A in C:\\wamp\\www\\Form1094C.php on line 26, referer: http://localhost/Form1094C.php
+[Thu May 13 00:45:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: QOfferTranRelief22B in C:\\wamp\\www\\Form1094C.php on line 27, referer: http://localhost/Form1094C.php
+[Thu May 13 00:45:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Section498022C in C:\\wamp\\www\\Form1094C.php on line 28, referer: http://localhost/Form1094C.php
+[Thu May 13 00:45:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Offer98Percent22D in C:\\wamp\\www\\Form1094C.php on line 29, referer: http://localhost/Form1094C.php
+[Thu May 13 00:45:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Feb4980Indicator in C:\\wamp\\www\\Form1094C.php on line 44, referer: http://localhost/Form1094C.php
+[Thu May 13 00:45:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Mar4980Indicator in C:\\wamp\\www\\Form1094C.php on line 49, referer: http://localhost/Form1094C.php
+[Thu May 13 00:45:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: May4980Indicator in C:\\wamp\\www\\Form1094C.php on line 59, referer: http://localhost/Form1094C.php
+[Thu May 13 00:45:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jul4980Indicator in C:\\wamp\\www\\Form1094C.php on line 69, referer: http://localhost/Form1094C.php
+[Thu May 13 00:45:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug4980Indicator in C:\\wamp\\www\\Form1094C.php on line 74, referer: http://localhost/Form1094C.php
+[Thu May 13 00:45:19 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Dec4980Indicator in C:\\wamp\\www\\Form1094C.php on line 94, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AuthTrans19 in C:\\wamp\\www\\Form1094C.php on line 23, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: ALEGroup21 in C:\\wamp\\www\\Form1094C.php on line 25, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: QOfferMethod22A in C:\\wamp\\www\\Form1094C.php on line 26, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: QOfferTranRelief22B in C:\\wamp\\www\\Form1094C.php on line 27, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Section498022C in C:\\wamp\\www\\Form1094C.php on line 28, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Offer98Percent22D in C:\\wamp\\www\\Form1094C.php on line 29, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jan4980Indicator in C:\\wamp\\www\\Form1094C.php on line 39, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: FebEssential in C:\\wamp\\www\\Form1094C.php on line 41, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Feb4980Indicator in C:\\wamp\\www\\Form1094C.php on line 44, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: MarEssential in C:\\wamp\\www\\Form1094C.php on line 46, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AprEssential in C:\\wamp\\www\\Form1094C.php on line 51, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr4980Indicator in C:\\wamp\\www\\Form1094C.php on line 54, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: JunEssential in C:\\wamp\\www\\Form1094C.php on line 61, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jun4980Indicator in C:\\wamp\\www\\Form1094C.php on line 64, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jul4980Indicator in C:\\wamp\\www\\Form1094C.php on line 69, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AugEssential in C:\\wamp\\www\\Form1094C.php on line 71, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Sep4980Indicator in C:\\wamp\\www\\Form1094C.php on line 79, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: OctEssential in C:\\wamp\\www\\Form1094C.php on line 81, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct4980Indicator in C:\\wamp\\www\\Form1094C.php on line 84, referer: http://localhost/Form1094C.php
+[Thu May 13 00:46:34 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: DecEssential in C:\\wamp\\www\\Form1094C.php on line 91, referer: http://localhost/Form1094C.php
+[Thu May 13 01:04:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AuthTrans19 in C:\\wamp\\www\\Form1094C.php on line 23, referer: http://localhost/Form1094C.php
+[Thu May 13 01:04:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: QOfferTranRelief22B in C:\\wamp\\www\\Form1094C.php on line 27, referer: http://localhost/Form1094C.php
+[Thu May 13 01:04:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Offer98Percent22D in C:\\wamp\\www\\Form1094C.php on line 29, referer: http://localhost/Form1094C.php
+[Thu May 13 01:04:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: AprEssential in C:\\wamp\\www\\Form1094C.php on line 51, referer: http://localhost/Form1094C.php
+[Thu May 13 01:04:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: MayEssential in C:\\wamp\\www\\Form1094C.php on line 56, referer: http://localhost/Form1094C.php
+[Thu May 13 01:04:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: JunEssential in C:\\wamp\\www\\Form1094C.php on line 61, referer: http://localhost/Form1094C.php
+[Thu May 13 01:04:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug4980Indicator in C:\\wamp\\www\\Form1094C.php on line 74, referer: http://localhost/Form1094C.php
+[Thu May 13 01:04:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: SepEssential in C:\\wamp\\www\\Form1094C.php on line 76, referer: http://localhost/Form1094C.php
+[Thu May 13 01:04:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Nov4980Indicator in C:\\wamp\\www\\Form1094C.php on line 89, referer: http://localhost/Form1094C.php
+[Thu May 13 01:04:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: DecEssential in C:\\wamp\\www\\Form1094C.php on line 91, referer: http://localhost/Form1094C.php
+[Thu May 13 01:04:06 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Dec4980Indicator in C:\\wamp\\www\\Form1094C.php on line 94, referer: http://localhost/Form1094C.php
+[Thu May 13 13:20:11 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Apr in C:\\wamp\\www\\Form1095C.php on line 137, referer: http://localhost/Form1095C.php
+[Thu May 13 13:20:11 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jun in C:\\wamp\\www\\Form1095C.php on line 139, referer: http://localhost/Form1095C.php
+[Thu May 13 13:20:11 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Aug in C:\\wamp\\www\\Form1095C.php on line 141, referer: http://localhost/Form1095C.php
+[Thu May 13 13:20:11 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Oct in C:\\wamp\\www\\Form1095C.php on line 143, referer: http://localhost/Form1095C.php
+[Thu May 13 14:45:40 2021] [error] [client 127.0.0.1] PHP Warning:  odbc_exec() [<a href='function.odbc-exec'>function.odbc-exec</a>]: SQL error: [Microsoft][SQL Server Native Client 11.0][SQL Server]String or binary data would be truncated in table 'rawtest2.dbo.YE1095Head', column 'L14_Feb'. Truncated value: 'WE'., SQL state 37000 in SQLExecDirect in C:\\wamp\\www\\Form1095C.php on line 114, referer: http://localhost/Form1095C.php
+[Thu May 13 14:46:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Feb in C:\\wamp\\www\\Form1095C.php on line 135, referer: http://localhost/Form1095C.php
+[Thu May 13 14:46:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: May in C:\\wamp\\www\\Form1095C.php on line 138, referer: http://localhost/Form1095C.php
+[Thu May 13 14:46:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Jul in C:\\wamp\\www\\Form1095C.php on line 140, referer: http://localhost/Form1095C.php
+[Thu May 13 14:46:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Sep in C:\\wamp\\www\\Form1095C.php on line 142, referer: http://localhost/Form1095C.php
+[Thu May 13 14:46:50 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Dec in C:\\wamp\\www\\Form1095C.php on line 145, referer: http://localhost/Form1095C.php
+[Thu May 13 14:49:47 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: QOfferMethod22A in C:\\wamp\\www\\Form1094C.php on line 31, referer: http://localhost/Form1094C.php
+[Thu May 13 14:49:47 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: QOfferTranRelief22B in C:\\wamp\\www\\Form1094C.php on line 32, referer: http://localhost/Form1094C.php
+[Thu May 13 14:49:47 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Section498022C in C:\\wamp\\www\\Form1094C.php on line 33, referer: http://localhost/Form1094C.php
+[Thu May 13 14:49:47 2021] [error] [client 127.0.0.1] PHP Notice:  Undefined index: Offer98Percent22D in C:\\wamp\\www\\Form1094C.php on line 34, referer: http://localhost/Form1094C.php

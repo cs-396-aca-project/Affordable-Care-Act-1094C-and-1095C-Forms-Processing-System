@@ -1,0 +1,45 @@
+210511 22:34:46 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The first specified data file .\ibdata1 did not exist:
+InnoDB: a new database to be created!
+210511 22:34:46  InnoDB: Setting file .\ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+210511 22:34:46  InnoDB: Log file .\ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+210511 22:34:47  InnoDB: Log file .\ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+210511 22:34:47  InnoDB: Started; log sequence number 0 0
+210511 22:34:47 [Note] Event Scheduler: Loaded 0 events
+210511 22:34:47 [Note] wampmysqld: ready for connections.
+Version: '5.1.36-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+210511 22:42:06 [Note] wampmysqld: Normal shutdown
+
+210511 22:42:06 [Note] Event Scheduler: Purging the queue. 0 events
+210511 22:42:06  InnoDB: Starting shutdown...
+210511 22:42:06  InnoDB: Shutdown completed; log sequence number 0 46409
+210511 22:42:06 [Warning] Forcing shutdown of 1 plugins
+210511 22:42:06 [Note] wampmysqld: Shutdown complete
+
+210511 22:44:25 [Note] Plugin 'FEDERATED' is disabled.
+210511 22:44:25  InnoDB: Started; log sequence number 0 46409
+210511 22:44:26 [Note] Event Scheduler: Loaded 0 events
+210511 22:44:26 [Note] wampmysqld: ready for connections.
+Version: '5.1.36-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+210512  0:47:14 [Note] wampmysqld: Normal shutdown
+
+210512  0:47:14 [Note] Event Scheduler: Purging the queue. 0 events
+210512  0:47:14  InnoDB: Starting shutdown...
+210512  0:47:15  InnoDB: Shutdown completed; log sequence number 0 46409
+210512  0:47:15 [Warning] Forcing shutdown of 1 plugins
+210512  0:47:15 [Note] wampmysqld: Shutdown complete
+
+210512  9:13:55 [Note] Plugin 'FEDERATED' is disabled.
+210512  9:13:55  InnoDB: Started; log sequence number 0 46409
+210512  9:13:56 [Note] Event Scheduler: Loaded 0 events
+210512  9:13:56 [Note] wampmysqld: ready for connections.
+Version: '5.1.36-community-log'  socket: ''  port: 3306  MySQL Community Server (GPL)

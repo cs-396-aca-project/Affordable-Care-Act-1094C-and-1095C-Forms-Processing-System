@@ -1,0 +1,73 @@
+This snapshot was automatically generated on
+Mon, 29 Jun 2009 20:27:24 +0000
+
+Version: 5.3.0
+Branch: HEAD
+Build: Release_TS
+
+Built-in Extensions
+===========================
+Core
+bcmath
+calendar
+com_dotnet
+ctype
+date
+ereg
+filter
+ftp
+hash
+iconv
+json
+mcrypt
+mysqlnd
+odbc
+pcre
+Reflection
+session
+SPL
+standard
+tokenizer
+zip
+zlib
+libxml
+dom
+PDO
+Phar
+SimpleXML
+wddx
+xml
+xmlreader
+xmlwriter
+mhash
+
+
+Dependency information:
+Module: php_curl.dll
+===========================
+	libeay32.dll
+	ssleay32.dll
+
+Module: php_intl.dll
+===========================
+	icuuc36.dll
+	icuin36.dll
+
+Module: php_ldap.dll
+===========================
+	ssleay32.dll
+	libeay32.dll
+
+Module: php_openssl.dll
+===========================
+	ssleay32.dll
+	libeay32.dll
+
+Module: php_pgsql.dll
+===========================
+	libpq.dll
+
+Module: php_pdo_pgsql.dll
+===========================
+	libpq.dll
+

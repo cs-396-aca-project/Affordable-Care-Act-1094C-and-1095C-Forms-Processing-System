@@ -1,0 +1,41 @@
+For the demo to work you will have to do the following
+
+1. Download Wampserver2.0i
+2. Once installation is in progress it will ask which default application you will want to use (I used Chrome)
+3. When the installation is complete, an icon will show up in the desktop (run it) and in the hidden icons.
+4. In the hidden icons, the wampserver icon will show and by clicking it you will go to services and activate/start apache
+you will also click "localhost" which is where wampserver is running and it will open chrome.
+5. Before clicking localhost, make sure that the code is saved in the fill www/ (C:\wamp\www) saving the files in that folder
+ will make wampserver detect the files and run it in localhost.
+
+For the SQL part:
+The sql file will be added in the folder given
+1. Copy all the code and paste in Microsoft SQL Server Management 
+2. Execute the query and the database will be created
+3. In MS SQL Studio, open the properties of your server name, go to security and enable SQL Server and Windows Authentication.
+Then restart the server
+4. Again, go to security, open login and create new login.
+
+Login name enter: mah47
+enable SQL Server authentication
+
+Add password :PERSONA5SCRAMBLE
+
+Giving my information since the php file "connection.php" has an odbc_connect that reads user and password.
+
+5. In the login folder, go to the login you created, go to prpoerties, go to server roles and see if public and sysadmin are checked.
+
+6. In SQL, disconnect from the server. Click connect and in the authentication section, select SQL Server Authentication
+and enter the login user and password.
+
+
+For the ODBC part:
+1: In the PC, open ODBC Data Source Admin, go to System DSN, and a new data source
+2. Select SQL Server. As the new window open. Go back to SQL and copy the server name and paste in the section where it says "which SQL server you want to connect to?"
+3. Name will be "Test2"
+4. Click next, for login ID enable SQL Server Authentication. Enter loginID and password (same we used for SQL)
+5. Click next and enable "Change the default database to:" which will be rawtest2
+
+6. Click next, finish and everything is set to test.
+
+Final step, open hidden icon, click wampserver, click localhost and the project will show up.
